@@ -7,7 +7,7 @@ const onAnalyzeButtonClick = () => {
 
   var input2 = input.replace(" ", "+");
 
-  url = "http://api.giphy.com/v1/gifs/search?q=" + input2 + "&api_key=AHbuaITp9vRMmmutYffI49EWURZrE5OS&limit=10";
+  url = "https://api.giphy.com/v1/gifs/search?q=" + input2 + "&api_key=AHbuaITp9vRMmmutYffI49EWURZrE5OS&limit=10";
 
     var xhr = $.get(url);
     xhr.done(function(data) { 
