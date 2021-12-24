@@ -26,7 +26,7 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 80px;
-  color: beige
+  color: orange
 }
 
 section{
@@ -184,6 +184,8 @@ section{
   }
 }
 
+
+
 .main2{
   padding-left: 20%;
 }
@@ -211,29 +213,34 @@ section{
 
 
 
-
 .sec3{
-  max-width: 100%;
   overflow: hidden;
+  background-image: url('../media/img1.jpg') ;
+  
 }
 
 .sec3 h2{
-  position: absolute;
-  top: 5%;
-  left: 50%;
-
-  font-size: 55px;
-  color: black;
+  font-size: 4ex;
+  padding-bottom: 10px;
 }
 
-.sec3 p{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 30px;
+#txt{
+  padding-top: 10ex;
+  padding-bottom: 10ex;
+  margin-left: 10%;
+  margin-right: 10%;
+
+  font-size: 3ex;
   color: black;
+  font-family:sans-serif;
+
 }
+
+
+
+
+
+
 
 #secButton{
   padding:0.35em 1.2em;
