@@ -1,13 +1,3 @@
-var mobile = (/iphone|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));  
-    if (mobile) { 
-        
-        $('.container').css('display', 'none'); 
-    } 
-   
-
-    
-
-
 
 const intro = document.querySelector(".intro");
 const video = intro.querySelector("video");
