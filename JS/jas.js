@@ -35,6 +35,16 @@ function covidStats(){
       var db = data.summary[0];
       document.getElementById('covResult').style.display="block";
       document.getElementById('ProvinceDate').innerHTML = "Province = " + inputP.toUpperCase() + ", Date = " + inputD;
+      if(!inputD){
+        document.getElementById('ProvinceDate').innerHTML = "Province = " + inputP.toUpperCase() + ", Date = Today" ;
+      }
+      
+      if(!inputP){
+        document.getElementById('ProvinceDate').innerHTML = "Province = AB" + ", Date = Today" ;
+      }
+
+      
+
       document.getElementById('cases1').innerHTML = "Daily cases = " + db.cases;
       document.getElementById('activeCases1').innerHTML = "Active cases = " + db.active_cases;
       document.getElementById('totalCases1').innerHTML = "Total cases = " + db.cumulative_cases;
