@@ -14,3 +14,8 @@ There are two apps in the project, first App takes input from user and fetches
 result from GIPHY.com using their API. This App uses Javacript to override
 the existing media library with the Library received via fetch command (in JSON format), 
  and unwraps that data.  For more data you can refer to console
+ 
+Second Application provides us with information regarding coronavirus cases in 
+Canadian Provinces. User inputs Date and Province code and gets the related information.
+Such as daily case count, total cases upto that date etc. More data can be obtained from console
+     
