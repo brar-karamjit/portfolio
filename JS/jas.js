@@ -43,7 +43,7 @@ function covidStats(){
       if(!inputP){
         document.getElementById('ProvinceDate').innerHTML = "Province = AB" + ", Date = Today" ;
       }
-      
+      //load the data
       document.getElementById('cases1').innerHTML = "Daily cases = " + db.cases;
       document.getElementById('activeCases1').innerHTML = "Active cases = " + db.active_cases;
       document.getElementById('totalCases1').innerHTML = "Total cases = " + db.cumulative_cases;
