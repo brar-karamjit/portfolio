@@ -23,6 +23,7 @@ function onAnalyzeButtonClick() {
 
 
 function covidStats(){
+  
 
   let inputP = document.getElementById('comment2').value.trim();
   let inputD = document.getElementById('comment3').value.trim();
