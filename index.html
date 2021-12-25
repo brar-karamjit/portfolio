@@ -84,7 +84,7 @@
      <h2>About</h2>
      <p>
        This project utilises multiple javascript librariries such as TweenMax,
-       ScrollMagic, jquery and for navbar I have used CSS library bootstrap.
+       ScrollMagic, jquery and for navbar and footer, I have used CSS library bootstrap.
         <br><br>
        At the very top you can see an animation which is controlled by scroll,
        following that there is particles-js library for background and my name 
@@ -149,27 +149,75 @@
       </section>
       
   </div>
+  
   </section>
 
-  <section>
-    <div id="skip4">
+  <section class="sec5">   <!--Covid stats-->   
+    <div id="skip5">
     </div>
 
     <div class="main2">
-      <h2>
-        App #2
-      </h2>
-      <h2>
-        Coronavirus Stats
-      </h2>
+      <h2>App #2</h2>
+      <h2>Coronavirus Stats</h2>
+      <p> Please enter province code (example ON, BC, AB, MB)</p>
+      <textarea  id="comment2" class="main-comment-area"></textarea>
+      
+      <p> Please date (YYYY-MM-DD or DD-MM-YYYY)</p>
+      <textarea  id="comment3" class="main-comment-area"></textarea>
+      <br>
+      <button onclick="covidStats()" class="main-analyze-button2">Get Data </button>
+      <br>
+      
+
+      <div id="covResult">
+      </p><p id="ProvinceDate">..</p><br>
+        </p><p id="cases1">..</p><br>
+        </p><p id="activeCases1">..</p><br>
+        </p><p id="totalCases1">..</p><br>
+        </p><p id="death1">..</p><br>
+        </p><p id="recovered1">..</p><br>
+
+      </div>
+      
+
       <br><br>
 
     </div>
-
+    <HR WIDTH="100%" COLOR="#FFFFFF" SIZE="4">
+      <br><br>
   </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
   <button onclick="mid_func()" id="myBtn2">Skip</button>
+
+  <div class="cont">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="#skip3" class="nav-link px-2 text-muted">About</a></li>
+        <li class="nav-item"><a href="media/kb_r.pdf" target="blank" class="nav-link px-2 text-muted">Resume</a></li>
+        <li class="nav-item"><a href="#skip4" class="nav-link px-2 text-muted">App #1</a></li>
+        <li class="nav-item"><a href="#skip5" class="nav-link px-2 text-muted">App #2</a></li>
+      </ul>
+      <p class="text-center text-muted">&copy; 2021 Karamjit Brar</p>
+    </footer>
+  </div>
 
 
   <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>

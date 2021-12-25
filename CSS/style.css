@@ -44,7 +44,7 @@ section{
 .sec2 h1{
   position: absolute;
   top: 50%;
-  
+
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 50px;
@@ -93,6 +93,66 @@ section{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Sectionn 3 */
+
+.sec3{
+  overflow: hidden;
+  background-image: url('../media/img1.jpg') ;
+  
+}
+
+.sec3 h2{
+  font-size: 4ex;
+  padding-bottom: 10px;
+}
+
+#txt{
+  padding-top: 10ex;
+  padding-bottom: 10ex;
+  margin-left: 10%;
+  margin-right: 10%;
+
+  font-size: 3ex;
+  color: black;
+  font-family:sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Section 4 */
 
 .main{
   
@@ -187,54 +247,49 @@ section{
 
 
 
+
+
+
+
+
+
+
+
+
+
+/* Section 5 */
+
+
 .main2{
   padding-left: 20%;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.sec3{
-  overflow: hidden;
-  background-image: url('../media/img1.jpg') ;
-  
+#covResult{
+  position: relative;
+  font-family: monospace;
+  display: none;
 }
 
-.sec3 h2{
-  font-size: 4ex;
-  padding-bottom: 10px;
+
+.main-analyze-button2 {
+   
+  width: 50%;
+  padding: 5px;
+  border: 1px solid #007bff;
+  background-color: #007bff;
+  border-radius: 7px;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  outline: none;
+  margin-bottom: 5%;
 }
-
-#txt{
-  padding-top: 10ex;
-  padding-bottom: 10ex;
-  margin-left: 10%;
-  margin-right: 10%;
-
-  font-size: 3ex;
-  color: black;
-  font-family:sans-serif;
-
+.main-analyze-button2::-moz-focus-inner {border: 0;}
+.main-analyze-button2:hover {
+  background-color: #0069d9;
+  border-color: #0069d9;
+  cursor: pointer;
 }
 
 

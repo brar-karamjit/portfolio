@@ -1,5 +1,5 @@
 
-const onAnalyzeButtonClick = () => {
+function onAnalyzeButtonClick() {
   // Getting a textarea element with a comment
   const input = document.getElementById('comment').value.trim();
   document.getElementById("h2_change").innerHTML = input;
@@ -20,3 +20,33 @@ const onAnalyzeButtonClick = () => {
     });
 
 };
+
+
+function covidStats(){
+
+  let inputP = document.getElementById('comment2').value.trim();
+  let inputD = document.getElementById('comment3').value.trim();
+
+  url = "https://api.opencovid.ca/summary?loc=" + inputP.toUpperCase() + "&date=" + inputD;
+
+    var xhr = $.get(url);
+    xhr.done(function(data) { 
+      console.log("success got data", data); 
+      var db = data.summary[0];
+      document.getElementById('covResult').style.display="block";
+      document.getElementById('ProvinceDate').innerHTML = "Province = " + inputP.toUpperCase() + ", Date = " + inputD;
+      document.getElementById('cases1').innerHTML = "Daily cases = " + db.cases;
+      document.getElementById('activeCases1').innerHTML = "Active cases = " + db.active_cases;
+      document.getElementById('totalCases1').innerHTML = "Total cases = " + db.cumulative_cases;
+      document.getElementById('death1').innerHTML = "Daily Deaths = " + db.deaths;
+      document.getElementById('recovered1').innerHTML = "Daily recoveries = " + db.recovered;
+
+
+
+     
+    
+    });
+}
+
+
+
