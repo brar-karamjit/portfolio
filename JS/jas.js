@@ -23,7 +23,7 @@ function onAnalyzeButtonClick() {
 
 
 function covidStats(){
-  
+
 
   let inputP = document.getElementById('comment2').value.trim();
   let inputD = document.getElementById('comment3').value.trim();
@@ -43,9 +43,7 @@ function covidStats(){
       if(!inputP){
         document.getElementById('ProvinceDate').innerHTML = "Province = AB" + ", Date = Today" ;
       }
-
       
-
       document.getElementById('cases1').innerHTML = "Daily cases = " + db.cases;
       document.getElementById('activeCases1').innerHTML = "Active cases = " + db.active_cases;
       document.getElementById('totalCases1').innerHTML = "Total cases = " + db.cumulative_cases;
