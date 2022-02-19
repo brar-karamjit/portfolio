@@ -7,22 +7,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Project</title>
   <link rel="icon" type="image/x-icon" href="media/fav.jpg">
-  
+
   <link href="CSS/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="CSS/style.css">
-  
-  <script src="JS/jquery.js"></script>     
+
+  <script src="JS/jquery.js"></script>
   <script src="JS/jas.js"></script>
   <script src="JS/particles.js"></script>
-  
-  
+
+
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Eighth navbar example"> <!--  Bootstrap navigation bar  -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Eighth navbar example">
+    <!--  Bootstrap navigation bar  -->
     <div class="container">
       <a class="navbar-brand" href="#">Project</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07"
+        aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -35,11 +37,12 @@
             <a class="nav-link" href="media/kb_r.pdf" target="_blank">Resume</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#skip3" >About</a>
+            <a class="nav-link" href="#skip3">About</a>
           </li>
-          
+
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdown07" data-bs-toggle="dropdown" aria-expanded="false">Navigate</a>
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown07" data-bs-toggle="dropdown"
+              aria-expanded="false">Navigate</a>
             <ul class="dropdown-menu" aria-labelledby="dropdown07">
               <li><a class="dropdown-item" href="#skip3">About</a></li>
               <li><a class="dropdown-item" href="#skip4">App1</a></li>
@@ -54,110 +57,136 @@
     </div>
   </nav>
 
-  <div class="intro">  <!--  Video Scroll  -->
+  <div class="intro">
+    <!--  Video Scroll  -->
     <h1 id="mb">Welcome</h1>
+    
+
+
+
+
+    
     <video src="media/stunt2.mp4"></video>
   </div>
 
-  
-  <section class="sec2"> <!--  Typewriter  -->
+
+  <section class="sec2">
+    <!--  Typewriter  -->
     <div id="skip2">
     </div>
-  
-    
-      <div class="typewriter">
-        <h1> Hi! <!-- <br> -->I'm Karamjit Brar </h1>
-      </div>
-    
+
+
+    <div class="typewriter">
+      <h1> Hi!
+        <!-- <br> -->I'm Karamjit Brar
+      </h1>
+    </div>
+
     <button onclick="moveDown()" id="secButton">Music?</button>
     <div id="particles-js"></div>
     <br>
-    
-    
+
+
   </section>
 
 
-  <section class="sec3">    <!--  About whole project  -->
+  <section class="sec3">
+    <!--  About whole project  -->
     <div id="skip3">
     </div>
     <div id="txt">
-     <h2>About</h2>
-     <p>
-       This project utilises multiple javascript librariries such as TweenMax,
-       ScrollMagic, jquery and for navbar and footer, I have used CSS library bootstrap.
+      <h2>About</h2>
+      <p>
+        This project utilises multiple javascript librariries such as TweenMax,
+        ScrollMagic, jquery and for navbar and footer, I have used CSS library bootstrap.
         <br><br>
-       At the very top you can see an animation which is controlled by scroll,
-       following that there is particles-js library for background and my name 
-       is being written using a typewriter effect created using CSS.
-       <br><br>
-       There are two applications in this project, first App takes input from user and fetches
-       result from GIPHY.com using their API. This App uses Javacript to override
-       the existing media library with the Library received via fetch command (in JSON format), 
-       and unwraps that data.  For more data you can refer to console
-      <br><br>
-      
-       Second Application provides us with information regarding coronavirus cases in 
-       Canadian Provinces. User inputs Date and Province code and gets the related information.
-       Such as daily case count, total cases upto that date etc. More data can be obtained from console
-     </p></div>
-     
-    
+        At the very top you can see an animation which is controlled by scroll,
+        following that there is particles-js library for background and my name
+        is being written using a typewriter effect created using CSS.
+        <br><br>
+        There are two applications in this project, first App takes input from user and fetches
+        result from GIPHY.com using their API. This App uses Javacript to override
+        the existing media library with the Library received via fetch command (in JSON format),
+        and unwraps that data. For more data you can refer to console
+        <br><br>
+
+        Second Application provides us with information regarding coronavirus cases in
+        Canadian Provinces. User inputs Date and Province code and gets the related information.
+        Such as daily case count, total cases upto that date etc. More data can be obtained from console
+      </p>
+    </div>
+
+
   </section>
 
 
-  <section class="sec4">  <!--  App1 using API from GIPHY  -->
+  <section class="sec4">
+    <!--  App1 using API from GIPHY  -->
     <div id="skip4">
     </div>
     <div class="main">
-      
+
       <section class="main-input-comment">
-        <h1> App #1       </h1><br>
+        <h1> App #1 (GIPHY Search) </h1><br>
         <h2 class="main-header">Show me pictures of ..</h2>
-          <textarea  name="comment" id="comment" class="main-comment-area"></textarea>
-          <button id="act" class="main-analyze-button" onclick="onAnalyzeButtonClick()">Let's go</button>
+        <textarea name="comment" id="comment" class="main-comment-area"></textarea>
+        <button id="act" class="main-analyze-button" onclick="onAnalyzeButtonClick()">Let's go</button>
       </section>
       <section class="main-result">
-          <div id="hidd" class="wrapper">
-              <h2 id="h2_change">Input<h2>
-                  <div class="gallery">
+        <div id="hidd" class="wrapper">
+          <h2 id="h2_change">Input<h2>
+              <div class="gallery">
 
-                      <div class="gallery-item">
-                          <img class="gallery-image" id="img1" src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=500&h=500&fit=crop" alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer">
-                      </div>
-              
-                      <div class="gallery-item">
-                          <img class="gallery-image" id="img2" src="https://images.unsplash.com/photo-1515260268569-9271009adfdb?w=500&h=500&fit=crop" alt="sunset behind San Francisco city skyline">
-                      </div>
-              
-                      <div class="gallery-item">
-                          <img class="gallery-image" id="img3" src="https://images.unsplash.com/photo-1506045412240-22980140a405?w=500&h=500&fit=crop" alt="people holding umbrellas on a busy street at night lit by street lights and illuminated signs in Tokyo, Japan">
-                      </div>
-              
-                      <div class="gallery-item">
-                          <img class="gallery-image" id="img4" src="https://images.unsplash.com/photo-1514041181368-bca62cceffcd?w=500&h=500&fit=crop" alt="car interior from central back seat position showing driver and blurred view through windscreen of a busy road at night">
-                      </div>
-              
-                      <div class="gallery-item">
-                          <img class="gallery-image" id="img5" src="https://images.unsplash.com/photo-1445810694374-0a94739e4a03?w=500&h=500&fit=crop" alt="back view of woman wearing a backpack and beanie waiting to cross the road on a busy street at night in New York City, USA">
-                      </div>
-              
-                      <div class="gallery-item">
-                          <img class="gallery-image" id="img6" src="https://images.unsplash.com/photo-1486334803289-1623f249dd1e?w=500&h=500&fit=crop" alt="man wearing a black jacket, white shirt, blue jeans, and brown boots, playing a white electric guitar while sitting on an amp">
-                      </div>
-              
-                  </div>
-                  
-                  <br><br>
-                  <HR WIDTH="100%" COLOR="#FFFFFF" SIZE="4">
-                  <br>
-          </div>
+                <div class="gallery-item">
+                  <img class="gallery-image" id="img1"
+                    src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=500&h=500&fit=crop"
+                    alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer">
+                </div>
+
+                <div class="gallery-item">
+                  <img class="gallery-image" id="img2"
+                    src="https://images.unsplash.com/photo-1515260268569-9271009adfdb?w=500&h=500&fit=crop"
+                    alt="sunset behind San Francisco city skyline">
+                </div>
+
+                <div class="gallery-item">
+                  <img class="gallery-image" id="img3"
+                    src="https://images.unsplash.com/photo-1506045412240-22980140a405?w=500&h=500&fit=crop"
+                    alt="people holding umbrellas on a busy street at night lit by street lights and illuminated signs in Tokyo, Japan">
+                </div>
+
+                <div class="gallery-item">
+                  <img class="gallery-image" id="img4"
+                    src="https://images.unsplash.com/photo-1514041181368-bca62cceffcd?w=500&h=500&fit=crop"
+                    alt="car interior from central back seat position showing driver and blurred view through windscreen of a busy road at night">
+                </div>
+
+                <div class="gallery-item">
+                  <img class="gallery-image" id="img5"
+                    src="https://images.unsplash.com/photo-1445810694374-0a94739e4a03?w=500&h=500&fit=crop"
+                    alt="back view of woman wearing a backpack and beanie waiting to cross the road on a busy street at night in New York City, USA">
+                </div>
+
+                <div class="gallery-item">
+                  <img class="gallery-image" id="img6"
+                    src="https://images.unsplash.com/photo-1486334803289-1623f249dd1e?w=500&h=500&fit=crop"
+                    alt="man wearing a black jacket, white shirt, blue jeans, and brown boots, playing a white electric guitar while sitting on an amp">
+                </div>
+
+              </div>
+
+              <br><br>
+
+
+        </div>
       </section>
-      
-  </div>
-  
+
+    </div>
+
   </section>
 
-  <section class="sec5">   <!--Covid stats-->   
+  <section class="sec5">
+    <!--Covid stats-->
     <div id="skip5">
     </div>
 
@@ -165,31 +194,35 @@
       <h2>App #2</h2><br><br>
       <h2>Coronavirus Stats</h2>
       <p> Please enter province code (example ON, BC, AB, MB)</p>
-      <textarea  id="comment2" class="main-comment-area"></textarea>
-      
+      <textarea id="comment2" class="main-comment-area"></textarea>
+
       <p> Please date (YYYY-MM-DD or DD-MM-YYYY)</p>
-      <textarea  id="comment3" class="main-comment-area"></textarea>
+      <textarea id="comment3" class="main-comment-area"></textarea>
       <br>
       <button onclick="covidStats()" class="main-analyze-button2">Get Data </button>
       <br>
-      
+
 
       <div id="covResult">
-      </p><p id="ProvinceDate">..</p><br>
-        </p><p id="cases1">..</p><br>
-        </p><p id="activeCases1">..</p><br>
-        </p><p id="totalCases1">..</p><br>
-        </p><p id="death1">..</p><br>
-        </p><p id="recovered1">..</p><br>
+        </p>
+        <p id="ProvinceDate">..</p><br>
+        </p>
+        <p id="cases1">..</p><br>
+        </p>
+        <p id="activeCases1">..</p><br>
+        </p>
+        <p id="totalCases1">..</p><br>
+        </p>
+        <p id="death1">..</p><br>
+        </p>
+        <p id="recovered1">..</p>
+
+
+        <br><br>
 
       </div>
-      
 
-      <br><br>
 
-    </div>
-    <HR WIDTH="100%" COLOR="#FFFFFF" SIZE="4">
-      <br><br>
   </section>
 
 
@@ -229,22 +262,10 @@
   <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.js"></script>
-  
+
   <script src="JS/app.js"></script>
   <script src="JS/bootstrap.bundle.min.js"></script>
 
-  </body>
+</body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-

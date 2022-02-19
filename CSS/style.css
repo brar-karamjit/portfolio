@@ -135,6 +135,7 @@ section{
   padding-bottom: 10ex;
   margin-left: 10%;
   margin-right: 10%;
+  max-width: 70ex;
 
   font-size: 3ex;
   color: black;
@@ -160,7 +161,7 @@ section{
 }
 .main-input-comment {
   padding-top: 5%;
-  margin-left: 30%;
+  margin-left: 10%;
   margin-bottom: 20px; 
 }
 
@@ -259,17 +260,35 @@ section{
 
 /* Section 5 */
 
+.sec5{
+  background-image: url('../media/img1.jpg') ;
+  color: black;
+
+}
 
 .main2{
+  padding-top: 5%;
   padding-left: 20%;
+  
 }
 
 
 #covResult{
-  position: relative;
+  
+  width: 55%;
+  
   font-family: monospace;
   display: none;
+  font-size: 20px;
+  min-height: 50vh;
+
+  
 }
+
+
+
+
+
 
 
 .main-analyze-button2 {
