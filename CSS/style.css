@@ -9,30 +9,14 @@ body{
   width: 100%;
 }
 
-.intro{
-  height: 100vh;
-}
-
-.intro video{
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
 
 
-.intro h1{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 80px;
-  color: orange
-}
+
 
 section{
 
   position: relative;
-  height: 100%;
+  height: 70%;
   color: white;
   background-color: black;
   
@@ -40,6 +24,9 @@ section{
   
 }
 
+.btnn:hover{
+  background-color: rgb(68, 29, 128);
+}
 
 .sec2 h1{
   position: absolute;
@@ -121,7 +108,7 @@ section{
 
 .sec3{
   overflow: hidden;
-  background-image: url('../media/img1.jpg') ;
+  background-image: url('https://images.unsplash.com/photo-1604147706283-d7119b5b822c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80') ;
   
 }
 
@@ -261,7 +248,7 @@ section{
 /* Section 5 */
 
 .sec5{
-  background-image: url('../media/img1.jpg') ;
+  background-image: url('https://images.unsplash.com/photo-1604147706283-d7119b5b822c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80') ;
   color: black;
 
 }
