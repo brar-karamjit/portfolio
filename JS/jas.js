@@ -33,7 +33,7 @@ let covidStats = () => {
   var xhr = $.get(url);
   xhr.done(function (data) {
     console.log("success got data", data);
-    var db = data.summary[0];
+    var db = data.data[0];
     document.getElementById('covResult').style.display = "block";
     document.getElementById('ProvinceDate').innerHTML = "Province = " + inputP.toUpperCase() + ", Date = " + inputD;
     if (!inputD) {
