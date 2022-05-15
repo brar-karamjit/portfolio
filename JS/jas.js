@@ -45,11 +45,11 @@ let covidStats = () => {
       document.getElementById('ProvinceDate').innerHTML = "Province = AB" + ", Date = Today";
     }
     //load the data
-    document.getElementById('cases1').innerHTML = "Daily cases = " + db.cases;
-    document.getElementById('activeCases1').innerHTML = "Active cases = " + db.active_cases;
-    document.getElementById('totalCases1').innerHTML = "Total cases = " + db.cumulative_cases;
-    document.getElementById('death1').innerHTML = "Daily Deaths = " + db.deaths;
-    document.getElementById('recovered1').innerHTML = "Daily recoveries = " + db.recovered;
+    document.getElementById('cases1').innerHTML = "Daily cases = " + db.cases_daily;
+    document.getElementById('activeCases1').innerHTML = "Total deaths = " + db.deaths;
+    document.getElementById('totalCases1').innerHTML = "Total cases = " + db.cases;
+    document.getElementById('death1').innerHTML = "Daily Deaths = " + db.deaths_daily;
+    document.getElementById('recovered1').innerHTML = "In ICU = " + db.icu;
 
 
 
