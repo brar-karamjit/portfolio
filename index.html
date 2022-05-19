@@ -145,7 +145,7 @@
               <li>Hosted on heroku</li>
               <li>dqlite database</li>
             </ul>
-            <button type="button" class="w-100 btn btn-lg btn-primary">Visit</button>
+            <a href='https://guarded-plains-11100.herokuapp.com/' type="button" class="w-100 btn btn-lg btn-primary">Visit app</a>
           </div>
         </div>
       </div>
@@ -164,7 +164,7 @@
               <li>Read more</li>
 
             </ul>
-            <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+            <a type="button" href="#giphy" class="w-100 btn btn-lg btn-primary">Visit app</a>
           </div>
         </div>
       </div>
@@ -182,7 +182,7 @@
               <li>Read more</li>
               
             </ul>
-            <button type="button" class="w-100 btn btn-lg btn-primary">Visit app</button>
+            <a type="button" href="#covid" class="w-100 btn btn-lg btn-primary">Visit app</a>
           </div>
         </div>
       </div>
@@ -192,103 +192,111 @@
 </div>
 
 
+<div class="container">
+  
+  
+    <div class="cds" id="cds">
+      
+      <h1> App #1 (Django - candy store) </h1>
+    
+      <img src="media/app1.png" style="max-width: 100%;">
+      <button style="
+      margin-top: 5%;
+      left: 10%;
+      
+      position: relative;
+      
+      
+      font-size: 16px;
+      padding: 12px 24px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;" onclick="window.location.href='https://guarded-plains-11100.herokuapp.com/';" class="btnn">Visit candy shop</button>
+    
+    
+
+  </div>
+  
+</div>
+
 
 <div class="container">
-    <section class="sec4">
-      <!--  App1 using API from GIPHY  -->
-      <div id="skip4">
-      </div>
-      <div class="main">
-  
-        <section class="main-input-comment">
-          <h1> App #1 (Django - candy store) </h1>
-          <div class="container">
-            <img src="media/app1.png" style="max-width: 100%;">
-            <button style="
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            background-color: rgb(30, 30, 30);
-            color: white;
-            font-size: 16px;
-            padding: 12px 24px;
-            border: none;
-            cursor: pointer;
-            border-radius: 5px;" onclick="window.location.href='https://guarded-plains-11100.herokuapp.com/';" class="btnn">Visit candy shop</button>
-          </div>
-          
-  
-          <h1 style="margin-top: 4ex;">  App #2 (GIPHY Search) </h1><br>
-          <h2 class="main-header">Show me pictures of ..</h2>
-          <textarea name="comment" id="comment" class="main-comment-area"></textarea>
-          <button id="act" class="main-analyze-button" onclick="onAnalyzeButtonClick()">Let's go</button>
-        </section>
-        <section class="main-result">
-          <div id="hidd" class="wrapper">
-            <h2 id="h2_change">Input<h2>
-              <div class="container">
-                <div class="gallery">
-  
-                  <div class="gallery-item">
-                    <img class="gallery-image" id="img1"
-                      src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=500&h=500&fit=crop"
-                      alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer">
+    <section class="sec4" id="giphy">
+      
+        <div>
+          <section class="main-input-comment">
+            <h1 style="margin-top: 4ex;">  App #2 (GIPHY Search) </h1><br>
+            <h2 class="main-header">Show me pictures of ..</h2>
+            <textarea name="comment" id="comment" class="main-comment-area"></textarea>
+            <button id="act" class="main-analyze-button" onclick="onAnalyzeButtonClick()">Let's go</button>
+          </section>
+          <section class="main-result">
+            <div id="hidd" class="wrapper">
+              <h2 id="h2_change">Input<h2>
+                <div class="container" style="max-width:100% ;">
+                  <div class="gallery" >
+    
+                    <div class="gallery-item">
+                      <img class="gallery-image" id="img1"
+                        src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=500&h=500&fit=crop"
+                        alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer">
+                    </div>
+    
+                    <div class="gallery-item">
+                      <img class="gallery-image" id="img2"
+                        src="https://images.unsplash.com/photo-1515260268569-9271009adfdb?w=500&h=500&fit=crop"
+                        alt="sunset behind San Francisco city skyline">
+                    </div>
+    
+                    <div class="gallery-item">
+                      <img class="gallery-image" id="img3"
+                        src="https://images.unsplash.com/photo-1506045412240-22980140a405?w=500&h=500&fit=crop"
+                        alt="people holding umbrellas on a busy street at night lit by street lights and illuminated signs in Tokyo, Japan">
+                    </div>
+    
+                    <div class="gallery-item">
+                      <img class="gallery-image" id="img4"
+                        src="https://images.unsplash.com/photo-1514041181368-bca62cceffcd?w=500&h=500&fit=crop"
+                        alt="car interior from central back seat position showing driver and blurred view through windscreen of a busy road at night">
+                    </div>
+    
+                    <div class="gallery-item">
+                      <img class="gallery-image" id="img5"
+                        src="https://images.unsplash.com/photo-1445810694374-0a94739e4a03?w=500&h=500&fit=crop"
+                        alt="back view of woman wearing a backpack and beanie waiting to cross the road on a busy street at night in New York City, USA">
+                    </div>
+    
+                    <div class="gallery-item">
+                      <img class="gallery-image" id="img6"
+                        src="https://images.unsplash.com/photo-1486334803289-1623f249dd1e?w=500&h=500&fit=crop"
+                        alt="man wearing a black jacket, white shirt, blue jeans, and brown boots, playing a white electric guitar while sitting on an amp">
+                    </div>
+    
                   </div>
-  
-                  <div class="gallery-item">
-                    <img class="gallery-image" id="img2"
-                      src="https://images.unsplash.com/photo-1515260268569-9271009adfdb?w=500&h=500&fit=crop"
-                      alt="sunset behind San Francisco city skyline">
-                  </div>
-  
-                  <div class="gallery-item">
-                    <img class="gallery-image" id="img3"
-                      src="https://images.unsplash.com/photo-1506045412240-22980140a405?w=500&h=500&fit=crop"
-                      alt="people holding umbrellas on a busy street at night lit by street lights and illuminated signs in Tokyo, Japan">
-                  </div>
-  
-                  <div class="gallery-item">
-                    <img class="gallery-image" id="img4"
-                      src="https://images.unsplash.com/photo-1514041181368-bca62cceffcd?w=500&h=500&fit=crop"
-                      alt="car interior from central back seat position showing driver and blurred view through windscreen of a busy road at night">
-                  </div>
-  
-                  <div class="gallery-item">
-                    <img class="gallery-image" id="img5"
-                      src="https://images.unsplash.com/photo-1445810694374-0a94739e4a03?w=500&h=500&fit=crop"
-                      alt="back view of woman wearing a backpack and beanie waiting to cross the road on a busy street at night in New York City, USA">
-                  </div>
-  
-                  <div class="gallery-item">
-                    <img class="gallery-image" id="img6"
-                      src="https://images.unsplash.com/photo-1486334803289-1623f249dd1e?w=500&h=500&fit=crop"
-                      alt="man wearing a black jacket, white shirt, blue jeans, and brown boots, playing a white electric guitar while sitting on an amp">
-                  </div>
-  
                 </div>
-              </div>
-                
+                  
+    
+                  <br><br>
+    
+    
+            </div>
+          </section>
+        </div>
+        
   
-                <br><br>
-  
-  
-          </div>
-        </section>
-  
-      </div>
+      
   
     </section>
 </div>
 
   
 <div class="container">
-  <section class="sec5">
+  <section class="sec5" id="covid">
     <!--Covid stats-->
     <div id="skip5">
     </div>
 
-    <div class="main2" style="padding-bottom: 10ex;">
+    <div class="main2"  style="padding-bottom: 10ex;">
       <h2>App #3</h2><br><br>
       <h2>Coronavirus Stats</h2>
       <p> Please enter province code (example ON, BC, AB, MB)</p>
