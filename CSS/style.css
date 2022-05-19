@@ -15,16 +15,6 @@ body{
 
 
 
-section{
-
-  position: relative;
-  height: 70%;
-  color: white;
-  background-color: black;
-  
-
-  
-}
 
 .btnn:hover{
   background-color: rgb(68, 29, 128);
@@ -33,7 +23,7 @@ section{
 .sec2 h1{
   position: absolute;
   top: 50%;
-
+  
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 50px;
@@ -41,6 +31,7 @@ section{
   pointer-events: none;
   font-family: 'Droid Sans', serif;
 }
+
 
 
 
@@ -108,31 +99,7 @@ section{
 
 
 
-/* Sectionn 3 */
 
-.sec3{
-  overflow: hidden;
-  background-image: url('https://images.unsplash.com/photo-1604147706283-d7119b5b822c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80') ;
-  
-}
-
-.sec3 h2{
-  font-size: 4ex;
-  padding-bottom: 10px;
-}
-
-#txt{
-  padding-top: 10ex;
-  padding-bottom: 10ex;
-  margin-left: 10%;
-  margin-right: 10%;
-  max-width: 70ex;
-
-  font-size: 3ex;
-  color: black;
-  font-family:sans-serif;
-
-}
 
 
 
