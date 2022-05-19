@@ -40,7 +40,7 @@
             <a class="nav-link" href="media/Karamjit_resume.pdf" target="_blank">Resume</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#skip3">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li><a class="nav-link" href="https://guarded-plains-11100.herokuapp.com/">Candy Store</a></li>
 
@@ -49,9 +49,9 @@
               aria-expanded="false">Navigate</a>
             <ul class="dropdown-menu" aria-labelledby="dropdown07">
               <li><a class="dropdown-item" href="#skip3">About</a></li>
-              <li><a class="dropdown-item" href="https://guarded-plains-11100.herokuapp.com/">App1 (Candy Store)</a></li>
-              <li><a class="dropdown-item" href="#skip4">App2 (GIPHY api)</a></li>
-              <li><a class="dropdown-item" href="#skip4">App3 (opencovid api)</a></li>
+              <li><a class="dropdown-item" href="#cds">App1 (Candy Store)</a></li>
+              <li><a class="dropdown-item" href="#giphy">App2 (GIPHY api)</a></li>
+              <li><a class="dropdown-item" href="#covid">App3 (opencovid api)</a></li>
               <li ><a class="dropdown-item" href="media/yuhacks.pdf" target="_blank">YUhacks</a></li>
               <li><a class="dropdown-item" href="media/blood-donation.pdf" target="_blank">volunteering</a></li>
             </ul>
@@ -89,7 +89,7 @@
 
 
 
-<div class="container">
+<div class="container" id="about">
     <!--  About whole project  -->
    
     <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
@@ -233,47 +233,47 @@
           <section class="main-result">
             <div id="hidd" class="wrapper">
               <h2 id="h2_change">Input<h2>
-                <div class="container" style="max-width:100% ;">
+                
                   <div class="gallery" >
-    
+                    
                     <div class="gallery-item">
                       <img class="gallery-image" id="img1"
-                        src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=500&h=500&fit=crop"
+                        src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=300&h=300&fit=crop"
                         alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer">
                     </div>
     
                     <div class="gallery-item">
                       <img class="gallery-image" id="img2"
-                        src="https://images.unsplash.com/photo-1515260268569-9271009adfdb?w=500&h=500&fit=crop"
+                        src="https://images.unsplash.com/photo-1515260268569-9271009adfdb?w=300&h=300&fit=crop"
                         alt="sunset behind San Francisco city skyline">
                     </div>
     
                     <div class="gallery-item">
-                      <img class="gallery-image" id="img3"
+                      <img class="gallery-image" id="img3" style="display:none"
                         src="https://images.unsplash.com/photo-1506045412240-22980140a405?w=500&h=500&fit=crop"
                         alt="people holding umbrellas on a busy street at night lit by street lights and illuminated signs in Tokyo, Japan">
                     </div>
     
                     <div class="gallery-item">
-                      <img class="gallery-image" id="img4"
+                      <img class="gallery-image" id="img4" style="display:none"
                         src="https://images.unsplash.com/photo-1514041181368-bca62cceffcd?w=500&h=500&fit=crop"
                         alt="car interior from central back seat position showing driver and blurred view through windscreen of a busy road at night">
                     </div>
     
                     <div class="gallery-item">
-                      <img class="gallery-image" id="img5"
+                      <img class="gallery-image" id="img5" style="display:none"
                         src="https://images.unsplash.com/photo-1445810694374-0a94739e4a03?w=500&h=500&fit=crop"
                         alt="back view of woman wearing a backpack and beanie waiting to cross the road on a busy street at night in New York City, USA">
                     </div>
     
                     <div class="gallery-item">
-                      <img class="gallery-image" id="img6"
+                      <img class="gallery-image" id="img6" style="display:none"
                         src="https://images.unsplash.com/photo-1486334803289-1623f249dd1e?w=500&h=500&fit=crop"
                         alt="man wearing a black jacket, white shirt, blue jeans, and brown boots, playing a white electric guitar while sitting on an amp">
                     </div>
     
                   </div>
-                </div>
+                
                   
     
                   <br><br>
@@ -349,17 +349,18 @@
 
 
 
-  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-  <button onclick="mid_func()" id="myBtn2">Skip</button>
+  <a href="#skip2" id="myBtn" title="Go to top">^</a>
+  
 
   <div class="cont">
     <footer class="py-3 my-4">
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
         <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
-        <li class="nav-item"><a href="#skip3" class="nav-link px-2 text-muted">About</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link px-2 text-muted">About</a></li>
         <li class="nav-item"><a href="media/kb_r.pdf" target="blank" class="nav-link px-2 text-muted">Resume</a></li>
-        <li class="nav-item"><a href="#skip4" class="nav-link px-2 text-muted">App #1</a></li>
-        <li class="nav-item"><a href="#skip5" class="nav-link px-2 text-muted">App #2</a></li>
+        <li class="nav-item"><a href="#cds" class="nav-link px-2 text-muted">App #1</a></li>
+        <li class="nav-item"><a href="#giphy" class="nav-link px-2 text-muted">App #2</a></li>
+        <li class="nav-item"><a href="#covid" class="nav-link px-2 text-muted">App #3</a></li>
       </ul>
       <p class="text-center text-muted">&copy; 2021 Karamjit Brar</p>
     </footer>

@@ -4,6 +4,7 @@ let onAnalyzeButtonClick = () => {
   const input = document.getElementById('comment').value.trim();
   document.getElementById("h2_change").innerHTML = input;
   document.getElementById("hidd").style.display = "inherit";
+  
 
   var input2 = input.replace(" ", "+");
 
@@ -15,6 +16,7 @@ let onAnalyzeButtonClick = () => {
     var db = data;
     for (let i = 1; i < 7; i++) {
       document.getElementById("img" + i).src = db.data[i].images.fixed_height.url;
+      document.getElementById("img" + i).style.display = "block";
     }
 
   });
