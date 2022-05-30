@@ -25,7 +25,7 @@ let onAnalyzeButtonClick = () => {
 
 
 
-let covidStats = () => {
+async function covidStats () {
 
 
   let inputP = document.getElementById('comment2').value.trim();
@@ -33,9 +33,8 @@ let covidStats = () => {
 
   url = `https://api.opencovid.ca/summary?loc=${inputP.toUpperCase()}&date=${inputD}`;
 
-  var xhr = $.get(url);
-  xhr.done(function (data) {
-    console.log("success got data", data);
+    const response = await fetch(url)
+    const data = await response.json()
     var db = data.data[0];
     document.getElementById('covResult').style.display = "block";
     document.getElementById('ProvinceDate').innerHTML = "Province = " + inputP.toUpperCase() + ", Date = " + inputD;
@@ -52,12 +51,37 @@ let covidStats = () => {
     document.getElementById('totalCases1').innerHTML = "Total cases = " + db.cases;
     document.getElementById('death1').innerHTML = "Daily Deaths = " + db.deaths_daily;
     document.getElementById('recovered1').innerHTML = "In ICU = " + db.icu;
+  
 
 
 
 
+  // var xhr = $.get(url);
+  // console.log(xhr)
+  // xhr.done(function (data) {
+    
+  //   var db = data.data[0];
+  //   document.getElementById('covResult').style.display = "block";
+  //   document.getElementById('ProvinceDate').innerHTML = "Province = " + inputP.toUpperCase() + ", Date = " + inputD;
+  //   if (!inputD) {
+  //     document.getElementById('ProvinceDate').innerHTML = "Province = " + inputP.toUpperCase() + ", Date = Today";
+  //   }
 
-  });
+  //   if (!inputP) {
+  //     document.getElementById('ProvinceDate').innerHTML = "Province = AB" + ", Date = Today";
+  //   }
+  //   //load the data
+  //   document.getElementById('cases1').innerHTML = "Daily cases = " + db.cases_daily;
+  //   document.getElementById('activeCases1').innerHTML = "Total deaths = " + db.deaths;
+  //   document.getElementById('totalCases1').innerHTML = "Total cases = " + db.cases;
+  //   document.getElementById('death1').innerHTML = "Daily Deaths = " + db.deaths_daily;
+  //   document.getElementById('recovered1').innerHTML = "In ICU = " + db.icu;
+  //  });
+
+
+
+
+  
 }
 
 
