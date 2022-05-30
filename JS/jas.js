@@ -30,6 +30,7 @@ async function covidStats () {
 
   let inputP = document.getElementById('comment2').value.trim();
   let inputD = document.getElementById('comment3').value.trim();
+  
 
   url = `https://api.opencovid.ca/summary?loc=${inputP.toUpperCase()}&date=${inputD}`;
 
