@@ -1,14 +1,11 @@
 # Project
 
-Full-Stack Developer project
+This respository is for my portfolio website.
+It contains links to the projcts I have worked on.
 
-Hi, My name is karamjit, thanks for visiting my repository
+For frontend - CSS + Bootstrap, javascript and HTML
+Hosting - Github pages
 
-This Project contains Three Applications
-
-1. Django App deployed on Heroku (Dynamic app with sqlite database)
-2. Image search app (using GIPHY database and API)
-3. Covid Stat app (using https://api.opencovid.ca/)
-
+access link - https://brar-karamjit.github.io/Project/
 
      
