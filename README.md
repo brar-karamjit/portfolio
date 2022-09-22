@@ -1,6 +1,6 @@
 # Portfolio :moyai:
 This respository is for my portfolio website.
-It contains links to the projcts I have worked on.
+It contains links to the projcts I have worked on, my work experience and education.
 
 For frontend - CSS + Bootstrap, javascript and HTML
 
