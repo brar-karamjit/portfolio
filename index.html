@@ -21,7 +21,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Eighth navbar example">
+  <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark" aria-label="Eighth navbar example">
     <!--  Bootstrap navigation bar  -->
     <div class="container">
       
@@ -37,40 +37,45 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="media/Karamjit_resume.pdf" target="_blank">Resume</a>
-          </li>
           
-          <li class="nav-item">
-            <a class="nav-link" href="media/aboutme.pdf">About_me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="media/video.mp4">Video</a>
-          </li>
           <li class="nav-item">
             <a class="nav-link" href="https://www.linkedin.com/in/kramjitbr/">LinkedIn</a>
           </li>
+
           <li class="nav-item">
-            <a class="nav-link" href="media/myvision.pdf">My_Vision</a>
+            <a class="nav-link" href="media/Karamjit_resume.pdf">Resume</a>
           </li>
+         
           
 
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="dropdown07" data-bs-toggle="dropdown"
-              aria-expanded="false">Navigate</a>
+              aria-expanded="false">Projects</a>
             <ul class="dropdown-menu" aria-labelledby="dropdown07">
+           
               <li><a class="dropdown-item" href="#skip3">About</a></li>
               <li><a class="dropdown-item" href="#cds">Candy Store</a></li>
               <li><a class="dropdown-item" href="#giphy">GIPHY api</a></li>
               <li><a class="dropdown-item" href="#covid">Opencovid api</a></li>
+
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown07" data-bs-toggle="dropdown"
+              aria-expanded="false">Artifacts</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown07">
+              
+              <li><a class="dropdown-item" href="media/aboutme.pdf">About Me</a></li>
+              <li><a class="dropdown-item" href="media/aws1.pdf">AWS Certification</a></li>
               <li ><a class="dropdown-item" href="media/yuhacks.pdf" target="_blank">YUhacks</a></li>
               <li><a class="dropdown-item" href="media/blood-donation.pdf" target="_blank">volunteering</a></li>
             </ul>
           </li>
+
+
         </ul>
-        <form>
-          <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-        </form>
+        
       </div>
     </div>
   </nav>
@@ -84,7 +89,7 @@
     </div>
     <div class="container">
       <div class="typewriter">
-        <h1> Hi! I'm Karam
+        <h1> Hi! I'm Karamjit
         </h1>
         
       </div>
@@ -107,61 +112,71 @@
   <div class="container my-5" >
     <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
 
+
+
+
       <div class="col">
-        <div class="card mb-4 rounded-3 shadow-sm">
-          <div class="card-header py-3">
-            <h4 class="my-0 fw-normal">App #1</h4>
+        <div class="card mb-4 rounded-3 shadow-sm border-secondary">
+          <div class="card-header py-3 border-secondary">
+            <h4 class="my-0 text-center">Candy Store</h4>
           </div>
-          <div class="card-body" style="background-image: url('https://images.unsplash.com/photo-1499195333224-3ce974eecb47?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400') ; background-position: center;  box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.7);">
-            
-            <h1 class="card-title pricing-card-title">Candy store<small class="text-muted fw-light"></small></h1>
+          <div class="card-body" style="background-image: url('https://images.unsplash.com/photo-1566305977571-5666677c6e98?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=645&q=80') ; 
+          background-position: center;  box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.4);">
+         
             <ul class="list-unstyled mt-3 mb-4">
               <li>Dynamic</li>
               <li>Made using django</li>
               <li>Hosted on heroku</li>
               <li>sqlite database</li>
             </ul>
-            <a href='https://guarded-plains-11100.herokuapp.com/' type="button" class="w-100 btn btn-lg btn-primary">Visit app</a>
+            <a href='https://guarded-plains-11100.herokuapp.com/' type="button" class="btn btn-secondary">Open</a>
           </div>
         </div>
       </div>
+
       <div class="col">
-        <div class="card mb-4 rounded-3 shadow-sm">
-          <div class="card-header py-3">
-            <h4 class="my-0 fw-normal">App #2</h4>
+        <div class="card mb-4 rounded-3 shadow-sm border-secondary">
+          <div class="card-header py-3 border-secondary">
+            <h4 class="my-0 text-center">GIF Search</h4>
           </div>
-          <div class="card-body" style="background-image: url('https://images.unsplash.com/photo-1518057111178-44a106bad636?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400') ; background-position: center;  box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.5);">
-            
-            <h1 class="card-title pricing-card-title">GIPHY search<small class="text-muted fw-light"></small></h1>
+          <div class="card-body" style="background-image: url('https://images.unsplash.com/photo-1566305977571-5666677c6e98?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=645&q=80') ; 
+          background-position: center;  box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.4);">
+         
             <ul class="list-unstyled mt-3 mb-4">
               <li>GIPY image search</li>
               <li>GIPY api and database</li>
               <li>DOM manipulation</li>
               <li>Read more</li>
-
             </ul>
-            <a type="button" href="#giphy" class="w-100 btn btn-lg btn-primary">Visit app</a>
+            <a href="#giphy" type="button" class="btn btn-secondary">Open</a>
           </div>
         </div>
       </div>
-      <div class="col" >
-        <div class="card mb-4 rounded-3 shadow-sm">
-          <div class="card-header py-3">
-            <h4 class="my-0 fw-normal">App #3</h4>
+
+
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-secondary">
+          <div class="card-header py-3 border-secondary">
+            <h4 class="my-0 text-center">Covid Data</h4>
           </div>
-          <div class="card-body" style="background-image: url('https://images.unsplash.com/photo-1597440658768-f3ffdf64223c?ixlib=rb-1.2.1&raw_url=true&q=60&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fGNvdmlkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400') ; background-position: center;  box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.3);">
-            <h1 class="card-title pricing-card-title">Covid stats<small class="text-muted fw-light"></small></h1>
+          <div class="card-body" style="background-image: url('https://images.unsplash.com/photo-1566305977571-5666677c6e98?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=645&q=80') ; 
+          background-position: center;  box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.4);">
+         
             <ul class="list-unstyled mt-3 mb-4">
               <li>Provides covid stats</li>
               <li>data from opencovid.ca</li>
               <li>DOM manipulation</li>
               <li>Read more</li>
-              
             </ul>
-            <a type="button" href="#covid" class="w-100 btn btn-lg btn-primary">Visit app</a>
+            <a href="#covid" type="button" class="btn btn-secondary">Open</a>
           </div>
         </div>
       </div>
+
+
+
+
+
     </div>
     
   </div>
@@ -172,28 +187,51 @@
 <div class="container" id="about">
   <!--  About whole project  -->
 
-  <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-    <h2 class="display-4 fw-normal">About</h2>
-    <p class="fs-5 ">
-      This project contains three apps, First is a candy Store <a href="https://guarded-plains-11100.herokuapp.com/">link</a> and it is deployed at https://guarded-plains-11100.herokuapp.com/ . It was created with django and deployed using herkoku.
-      Candy Store is a dynamic website which uses python, bootstrap and sqlite database. On the homepage you have multiple options such as to buy individual candies, assortment or to even take the whole box. Each action 
-      has it's logic written in views.py and it accordingly update the database and dynamically updates all other fields such as the stock and images. It uses 'candy' model which has three attributes (name, quantity and image url)
-      and the objects of candy class are stored in the database. Here is a video walkthrough of the project. Please feel free to visit by clicking the obove given link.
-      <br><br>
-      
-      
-      Second app (hosted on github) is made with GIPHY.com public api. it asks user for and input and appends it to the url, which is used to fetch data. This App uses Javacript to override
-      the existing media library with the data received via fetch command (in JSON format).
-      <br><br>
-      Third Application (hosted on github) provides us with information regarding coronavirus cases in
-      Canadian Provinces. User inputs Date and Province code and gets the related information.
-      Such as daily case count, total cases upto that date etc. More data can be obtained from console.
-      For its data source, it uses opencovid.ca API.
-    </p>
+
+  
+
+  
+ 
+  <div class="accordion" id="accordionPanelsStayOpenExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+           About Projects
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+        <div class="accordion-body">
+          This project contains three apps, First is a candy Store <a href="https://guarded-plains-11100.herokuapp.com/">link</a> and it is deployed at https://guarded-plains-11100.herokuapp.com/ . It was created with django and deployed using herkoku.
+          Candy Store is a dynamic website which uses python, bootstrap and sqlite database. On the homepage you have multiple options such as to buy individual candies, assortment or to even take the whole box. Each action 
+          has it's logic written in views.py and it accordingly update the database and dynamically updates all other fields such as the stock and images. It uses 'candy' model which has three attributes (name, quantity and image url)
+          and the objects of candy class are stored in the database. Here is a video walkthrough of the project. Please feel free to visit by clicking the obove given link.
+           
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Read More
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Second app (hosted on github) is made with GIPHY.com public api. it asks user for and input and appends it to the url, which is used to fetch data. This App uses Javacript to override
+          the existing media library with the data received via fetch command (in JSON format).
+          <br><br>
+          Third Application (hosted on github) provides us with information regarding coronavirus cases in
+          Canadian Provinces. User inputs Date and Province code and gets the related information.
+          Such as daily case count, total cases upto that date etc. More data can be obtained from console.
+          For its data source, it uses opencovid.ca API.  
+        </div>
+      </div>
+    </div>
+    
   </div>
  
 
-
+<br><br><br>
 </div>
 
 
@@ -233,11 +271,6 @@
                 
                   <div class="gallery" >
                     
-                    <div class="gallery-item">
-                      <img class="gallery-image" id="img1"
-                        src="https://images.unsplash.com/photo-1512544783971-fb9a0691eda5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8d29sZnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500"
-                        alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer">
-                    </div>
     
                     <div class="gallery-item">
                       <img class="gallery-image" id="img2"
