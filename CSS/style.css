@@ -1,5 +1,3 @@
-
-
 *{
     margin: 0;
     padding: 0;
@@ -9,11 +7,23 @@
 body{
   
   font-family: sans-serif;
-  width: 100%;
+
   background-attachment: fixed;
   background-image: url('https://images.unsplash.com/photo-1604147706283-d7119b5b822c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80') ;
   
 }
+
+h3{
+  font-size: large;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 10%;
+}
+
+/* Card design for Projects */
 
 .btn{
   background-color: #242424 !important;
@@ -24,24 +34,51 @@ body{
   transform: scale(1.05);
 }
 
-
-
 .card:hover{
   
   transform: scale(102%);
   box-shadow: 5px 8px  rgba(209, 209, 215, 0.7) !important
 }
 
-
-
-
-.btnn:hover{
-  background-color: rgb(68, 29, 128);
+.card-body{
+  background-image: url('https://images.unsplash.com/photo-1566305977571-5666677c6e98?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=645&q=80') ; 
+  background-position: center;  
+  box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.4);
 }
 
-.sec2 h1{
+/* Accordion Customization*/
+
+.accordion-button{
+  background-color: #ced4da !important;
+  color: black;
+  box-shadow: none;
+}
+
+.accordion-button:hover {
+  box-shadow: 0 0 0 .25rem rgba(77, 76, 76, 0.284) !important;
+}
+
+.accordion-button:active {
+  box-shadow: none !important;
+}
+
+.accordion-button:PLEAT {
+  box-shadow: none !important;
+}
+
+.accordion-button:after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+  box-shadow: none !important;
+
+}
+
+
+
+/* Typing Section */
+
+.particles-typing h1{
   position: absolute;
-  top: 50%;
+  top: 30%;
   
   left: 50%;
   transform: translate(-50%, -50%);
@@ -51,9 +88,7 @@ body{
   font-family: 'Droid Sans', serif;
 }
 
-.sec2{
-  position: relative;
-}
+
 
 
 
@@ -91,216 +126,31 @@ body{
   50% { border-color: orange; }
 }
 
+/* side by dide div for education and resume*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Section 4 */
-
-
-
-.main{
-  
-  font-family: "Montserrat", Arial, sans-serif;
-}
-.main-input-comment {
-  padding-top: 5%;
-  
-  margin-bottom: 20px; 
-}
-
-.main-comment-area {
+.container-float-child {
   width: 50%;
-  border: #ced4da 1px solid;
-  border-radius: 10px;
-  resize: none;
-  padding: 10px;
-  margin-bottom: 10px;
-  font-size: 16px;
-}
-.main-analyze-button {
-   
-  width: 50%;
-  padding: 5px;
-  border: 1px solid #007bff;
-  background-color: #007bff;
-  border-radius: 7px;
-  color: white;
+  float: left;
   text-align: center;
-  font-size: 16px;
-  outline: none;
-  margin-bottom: 10%;
-}
-.main-analyze-button::-moz-focus-inner {border: 0;}
-.main-analyze-button:hover {
-  background-color: #0069d9;
-  border-color: #0069d9;
-  cursor: pointer;
-}
-
-.wrapper {
-  
-  max-width: 100%;
-  margin: 0 auto;
-  
-  padding-bottom: 5%;
-  
-}
-
-
-.gallery {
-  
-  flex-wrap: wrap;
-  
-  /* Compensate for excess margin on outer gallery flex items */
-  margin: -1rem -1rem;
-}
-
-.gallery-item {
-  /* Minimum width of 24rem and grow to fit available space */
-  flex: 1 0 24rem;
-  /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
-  margin: 1rem;
-  box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
   overflow: hidden;
-  max-width: 400px;
-  max-height: 400px;
-}
-
-.gallery-image {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 400ms ease-out;
-}
-
-.gallery-image:hover {
-  transform: scale(1.15);
-}
-
-
-@supports (display: grid) {
-  .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
-    grid-gap: 2rem;
-  }
-
-  .gallery,
-  .gallery-item {
-    margin: 0;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Section 5 */
-
-.sec5{
-  background-image: url('https://images.unsplash.com/photo-1604147706283-d7119b5b822c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80') ;
-  color: black;
-
-}
-
-.main2{
-  padding-top: 5%;
-  padding-left: 20%;
+  margin-bottom: 5ex;
+  filter:grayscale(30%)
   
-}
-
-
-#covResult{
   
-  width: 55%;
-  
-  font-family: monospace;
-  display: none;
-  font-size: 20px;
-  min-height: 50vh;
+}  
 
-  
-}
+.container-float-child:hover {
+  filter: none;
+  scale: 1.02;
+
+} 
 
 
 
 
 
 
-
-.main-analyze-button2 {
-   
-  width: 50%;
-  padding: 5px;
-  border: 1px solid #007bff;
-  background-color: #007bff;
-  border-radius: 7px;
-  color: white;
-  text-align: center;
-  font-size: 16px;
-  outline: none;
-  margin-bottom: 5%;
-}
-.main-analyze-button2::-moz-focus-inner {border: 0;}
-.main-analyze-button2:hover {
-  background-color: #0069d9;
-  border-color: #0069d9;
-  cursor: pointer;
-}
-
-
-
-
-
-
+/* Go top Top Button*/
 
 
 #myBtn {
@@ -322,14 +172,6 @@ body{
 #myBtn:hover {
   background-color: black; /* Add a dark-grey background on hover */
 }
-
-
-
-
-
-
-
-
 
 
 
