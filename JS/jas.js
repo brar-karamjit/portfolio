@@ -1,4 +1,6 @@
 
+
+
 let onAnalyzeButtonClick = () => {
   // Getting a textarea element with a comment
   const input = document.getElementById('comment').value.trim();
