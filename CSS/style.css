@@ -58,6 +58,7 @@ h3{
 
 
 
+
 /* Particles Customization*/
 
 #particles-js canvas {
@@ -112,7 +113,11 @@ h3{
 
 }
 
-
+p.light1 {
+  font-size: 10px;
+  color: #ced4da;
+  margin-top: -20px;
+}
 
 /* Typing Section */
 
