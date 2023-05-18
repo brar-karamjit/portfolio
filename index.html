@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="CSS/style.css">
   <link rel="stylesheet" href="CSS/giphy.css">
+  <link rel="stylesheet" href="CSS/timelines.css">
   <link rel="stylesheet" href="CSS/covidapp.css">
 
   <script src="JS/jquery.js"></script>
@@ -25,7 +26,7 @@
 <body>
   <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark" aria-label="Eighth navbar example">
     <!--  Bootstrap navigation bar  -->
-    <div class="container">
+    <div  class="container">
       
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07"
@@ -37,8 +38,9 @@
       <div class="collapse navbar-collapse" id="navbarsExample07">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="index.html"><img style="max-height: 3ex; border-radius: 2px;" src="media/fav.jpg" ></a>
           </li>
+          
           
           <li class="nav-item">
             <a class="nav-link" href="https://www.linkedin.com/in/kramjitbr/">LinkedIn</a>
@@ -74,11 +76,9 @@
             </ul>
           </li>
 
-          <li class="nav-item align-right">
-            <a class="nav-link" href="https://github.com/brar-karamjit">
-              <i class="fa fa-github" style="font-size:36px" > </i>
-            </a>
-            
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/brar-karamjit">Github</a>
           </li>
 
 
@@ -115,8 +115,6 @@
 
 
   <div class="container" id="heximage">
-    <br>
-
 
 
     <div class="row row-cols-1 row-cols-md-2 mb-3 text-center">
@@ -124,20 +122,28 @@
 
 
 
-      <div class="col">
-        <div style="height: 55ex;" class="card mb-4 rounded-3 shadow-sm border-secondary">
+      <div  class="col">
+        <div style="height: 48ex; background-color: #232741;" class="card mb-4 rounded-2 border-secondary">
           <div class="card-header py-3 border-secondary">
             <h4 class="my-0 text-center">Education</h4>
           </div>
           <div class="card-body-b" >
-            <img  style="max-height: 20ex; margin-bottom: 5ex;" src="media/edu.png" >
+            <img  style="max-height: 17ex; margin-bottom: 5ex;" src="media/edu.png" >
             <div class="container-sub">
-              <img style="max-height: 7ex; border-radius: 1ex; margin: 5px;" src="media/ed1.png" >
-                <div>
-                  
-                </div>
-                <br>
-                <p >List of <a href="media/Transcript.pdf" target="_blank"> Courses </a>taken</p>
+              <div 
+              style="background-image: linear-gradient(to right, #101324, #232741); margin-bottom: 13px; border-width: 1px; border-color: rgb(110, 109, 109); border-style: solid; border-radius: 10px; max-width: 28ex; padding: 2px; background-color: #232741;" 
+              class="container">
+                <p style="margin: 0px;">B.Sc. Computer Science</p>
+                <p class="light1">York University 2020 - Present</p>
+              </div>
+
+              <div 
+              style="background-image: linear-gradient(to right, #101324 , #232741); margin-bottom: 13px; border-width: 1px; border-color: rgb(110, 109, 109); border-style: solid; border-radius: 10px; max-width: 28ex; padding: 2px; background-color: #232741;" 
+              class="container">
+                <p style="margin: 0px;">Mechanical Engineering</p>
+                <p class="light1">Sheridan College 2015-17</p>
+              </div>
+              
               
             </div>
             
@@ -146,29 +152,32 @@
       </div>
 
       <div class="col">
-        <div style="height: 55ex;" class="card mb-4 rounded-3 shadow-sm border-secondary">
+        <div style="height: 48ex; background-color: #232741;" class="card mb-4 rounded-3  border-secondary">
           <div class="card-header py-3 border-secondary">
-            <h4 class="my-0 text-center">Work Experience</h4>
+            <h4  class="my-0 text-center"><a style="text-decoration: none;" href="media/Karamjit_resume.pdf" target="_blank">Work Experience</a></h4>
           </div>
           <div class="card-body-b" >
 
-            <img style="max-height: 20ex; margin-bottom: 5ex; ;" src="media/exp.png" >
+            <img style="max-height: 20ex; margin-bottom: 2ex; ;" src="media/exp.png" >
             <div class="container-sub" >
-              <div style="border-style: solid; border-radius: 20px; max-width: 28ex; padding: 2px;" class="container">
+              <div 
+              style="background-image: linear-gradient(to right, #101324 , #232741); margin-bottom: 13px; border-width: 1px; border-color: rgb(110, 109, 109); border-style: solid; border-radius: 10px; max-width: 28ex; padding: 2px; background-color: #232741;" 
+              class="container">
                 <p style="margin: 0px;">CloudOps</p>
-                <p class="light1">Questrade [May 2023 - Present]</p>
+                <p class="light1">Questrade, Toronto</p>
               </div>
-              <div style="margin-top: 7px; border-style: solid; border-radius: 20px; max-width: 28ex; padding: 2px;" class="container">
-  
+              <div 
+              style="background-image: linear-gradient(to right, #101324 , #232741); margin-bottom: 13px; border-width: 1px; border-color: rgb(110, 109, 109); border-style: solid; border-radius: 10px; max-width: 28ex; padding: 2px; background-color: #232741;" 
+              class="container">
                 <p style="margin: 0px;">DevOps Engineer</p>
-                <p class="light1">CGI [Sept 2022 - April 2023]</p>
+                <p class="light1">CGI, Markham</p>
               </div>
 
               
 
             </div>
             <br>
-            <p >Refer to <a href="media/Karamjit_resume.pdf" target="_blank">Resume</a> for more</p>
+            
           </div>
         </div>
       </div>
@@ -179,10 +188,12 @@
   </div>
 
 
+
+
   <div class="container my-5" id="projects">
     
     <h2 style="margin-top: 5ex; margin-bottom: 2ex; ">
-      Projects
+      Skills
     </h2>
     <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
       
@@ -192,35 +203,33 @@
       <div class="col">
         <div class="card mb-4 rounded-3 shadow-sm border-secondary">
           <div class="card-header py-3 border-secondary">
-            <h4 class="my-0 text-center">Tooling Manager</h4>
+            <h4 class="my-0 text-center">Frontend</h4>
           </div>
           <div class="card-body" >
          
             <ul class="list-unstyled mt-3 mb-4">
-              <li>Dynamic</li>
-              <li>Made using django</li>
-              <li>Hosted on heroku *</li>
-              <li>sqlite database</li>
+              <li>Bootstrap</li>
+              <li>Javascript</li>
+              <li>CSS</li>
+              <li>React</li>
             </ul>
-            <a href='https://guarded-plains-11100.herokuapp.com/' type="button" class="btn btn-secondary">Open</a>
-          </div>
+            </div>
         </div>
       </div>
 
       <div class="col">
         <div class="card mb-4 rounded-3 shadow-sm border-secondary">
           <div class="card-header py-3 border-secondary">
-            <h4 class="my-0 text-center">GIF Search</h4>
+            <h4 class="my-0 text-center">Backend</h4>
           </div>
           <div class="card-body" >
             <ul class="list-unstyled mt-3 mb-4">
-              <li>GIPY image search</li>
-              <li>GIPY api and database</li>
-              <li>DOM manipulation</li>
-              <li>Read more</li>
+              <li>Java</li>
+              <li>Python</li>
+              <li>SQL</li>
+              <li>Django</li>
             </ul>
-            <a href="#giphy" type="button" class="btn btn-secondary">Open</a>
-          </div>
+            </div>
         </div>
       </div>
 
@@ -228,18 +237,17 @@
       <div class="col">
         <div class="card mb-4 rounded-3 shadow-sm border-secondary">
           <div class="card-header py-3 border-secondary">
-            <h4 class="my-0 text-center">Covid Data</h4>
+            <h4 class="my-0 text-center">Deployment</h4>
           </div>
           <div class="card-body" >
          
             <ul class="list-unstyled mt-3 mb-4">
-              <li>Provides covid stats</li>
-              <li>data from opencovid.ca</li>
-              <li>DOM manipulation</li>
-              <li>Read more</li>
+              <li>Docker</li>
+              <li>Jenkins</li>
+              <li>Saltstack, Ansible</li>
+              <li>Jira, Git</li>
             </ul>
-            <a href="#covid" type="button" class="btn btn-secondary">Open</a>
-          </div>
+            </div>
         </div>
       </div>
 
@@ -268,7 +276,7 @@
       </h2>
       <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
         <div class="accordion-body">
-          This project contains three apps, First is a toolig inventory manager and it is deployed at https://guarded-plains-11100.herokuapp.com/ . It was created with django and deployed using herkoku.
+          This page contains three apps, First is a toolig inventory manager and it is deployed at https://guarded-plains-11100.herokuapp.com/ . It was created with django and deployed using herkoku.
           This tool is a dynamic website which uses python, bootstrap and sqlite database. On the homepage you have multiple options such as to update stock of indidivdual tools, assortment or to even take the whole box. Each action 
           has it's logic written in views.py and it accordingly update the database and dynamically updates all other fields such as the stock and images. It uses 'candy' model which has three attributes (name, quantity and image url)
           and the objects of candy class are stored in the database. Here is a video walkthrough of the project. Please feel free to visit by clicking the obove given link.
@@ -432,6 +440,7 @@
  
 
   <script src="JS/particle-settings.js"></script>
+  <script src="JS/timeline.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
 </body>
