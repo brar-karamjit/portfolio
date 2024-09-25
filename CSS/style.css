@@ -14,44 +14,13 @@ body{
   background-color: #232741;
 }
 
-#aws-certifications {
-  position: relative; /* Establish a positioning context */
-  z-index: 0; /* Lower z-index value */
-}
 
-a{
-  color: aliceblue;
-}
 
-a:hover{
-  color: whitesmoke;
-}
 
-h3{
-  font-size: large;
-  color: white;
-  background-color: black;
-  border-radius: 5px;
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-bottom: 10%;
-  
-}
 
 /* Card design for Projects */
 
-.btn{
-  background-color: #242424 !important;
-  border: black !important
-}
-
-.btn:hover{
-  transform: scale(1.05);
-}
-
 .card:hover{
-  
-  
   box-shadow: 5px 8px  rgba(209, 209, 215, 0.7) !important
 }
 
@@ -66,7 +35,6 @@ h3{
 
 #particles-js canvas {
   display: block;
-  vertical-align: bottom;
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
@@ -84,9 +52,6 @@ h3{
   left: 0
 }
 
-.spacer{
-  min-height: 70vh;
-}
 
 
 
@@ -123,111 +88,6 @@ p.light1 {
   
 }
 
-/* Typing Section */
-
-
-.particles-typing h1{
-  position: absolute;
-  top: 50%;
-  
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 50;
-  text-align: center;
-  pointer-events: none;
-  font-family: 'Droid Sans', serif;
-}
-
-@media(max-width:800px){
-  .particles-typing h1 {
-    top: 30%;
-    font-size: 30px;
-    
-    }
-}
-
-@media(max-width:800px){
-  #invisible{
-    display: none;
-    font-size: 25px;
-    
-    }
-}
-
-
-
-
-
-.typewriter {
-  display: inline-flex;
-  width: 100%;
-}
-
-
-
-
-@media(max-width:800px){
-  .particles-typing {
-    
-    margin-bottom: 5ex;
-    height: 40vh;
-    
-    }
-}
-
-
-
-.typewriter h1 {
-  max-width: 100;
-  display: inline-block;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: 
-    typing 3s steps(50, end),
-    blink-caret .75s step-end infinite;
-}
-
-/* The typing effect */
-@keyframes typing {
-  from {max-width: 0}
-  to {max-width: 100%}
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
-
-
-
-
-
-/* Go top Top Button*/
-
-
-#myBtn {
-  
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: gray; /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
-}
-
-#myBtn:hover {
-  background-color: black; /* Add a dark-grey background on hover */
-}
 
 
 

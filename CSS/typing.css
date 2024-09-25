@@ -1,0 +1,98 @@
+/* Typing Section */
+.spacer{
+    min-height: 70vh;
+}
+  
+.blink-typing h1{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 50;
+    text-align: center;
+    pointer-events: none;
+    font-family: 'Droid Sans', serif;
+}
+
+
+.typewriter {
+    display: inline-flex;
+    flex-grow: 1; /* Ensures the typewriter text takes up available space on the left */
+    width: auto;
+}
+
+
+  
+.typewriter h1{
+    max-width: 100;
+    display: inline-block;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3s steps(50, end),
+      blink-caret .75s step-end infinite;
+}
+
+@media(max-width:800px){
+    .blink-typing h1 {
+      top: 30%;
+      font-size: 30px;
+      
+      }
+}
+  
+@media(max-width:800px){
+    #invisible{
+      display: none;
+      font-size: 25px;
+      
+      }
+}  
+  
+@media(max-width:800px){
+    .blink-typing {
+      
+      margin-bottom: 5ex;
+      height: 40vh;
+      
+      }
+}
+  
+  /* The typing effect */
+@keyframes typing {
+    from {max-width: 0}
+    to {max-width: 100%}
+}
+  
+  /* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+}
+
+/* Wrapper for both typewriter and image */
+.typewriter-image-wrapper {
+    display: flex;
+    align-items: center; /* Aligns text and image vertically */
+    justify-content: space-between; /* Keeps typewriter on left and image on right */
+    width: 100%; /* Makes the container take full width */
+    margin-bottom: 10px;
+}
+
+/* Image container */
+.image-container {
+    display: flex;
+    justify-content: flex-start; /* Aligns image to the right */
+}
+  
+.image-container img {
+    margin-top: 20px;
+    max-width: 70%; /* Sets a small image size */
+    height: auto; /* Keeps aspect ratio */
+    margin-left: 10%;
+}
+
+
