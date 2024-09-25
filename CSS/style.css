@@ -14,7 +14,10 @@ body{
   background-color: #232741;
 }
 
-
+#aws-certifications {
+  position: relative; /* Establish a positioning context */
+  z-index: 0; /* Lower z-index value */
+}
 
 a{
   color: aliceblue;
