@@ -1,0 +1,11 @@
+/* Card design for Projects */
+
+
+.card:hover {
+  transform: translateY(-5px); /* Lift effect */
+  box-shadow: 0 8px 15px rgba(209, 209, 215, 0.5) !important; /* Reduced glow */
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and box-shadow */
+}

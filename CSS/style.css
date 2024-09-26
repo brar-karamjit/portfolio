@@ -19,19 +19,6 @@ body{
 
 
 
-/* Card design for Projects */
-
-.card:hover{
-  box-shadow: 5px 8px  rgba(209, 209, 215, 0.7) !important
-}
-
-.card{
-  background:transparent;
-}
-
-
-
-
 /* Particles Customization*/
 
 #particles-js canvas {
@@ -82,12 +69,7 @@ body{
 
 }
 
-p.light1 {
-  font-size: 10px;
-  color: #ced4da;
-  margin: 5px;
-  
-}
+
 
 
 
