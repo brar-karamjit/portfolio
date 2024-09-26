@@ -22,10 +22,9 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="CSS/style.css">
   <link rel="stylesheet" href="CSS/typing.css">
-  <link rel="stylesheet" href="CSS/giphy.css">
-  <link rel="stylesheet" href="CSS/timelines.css">
-  <link rel="stylesheet" href="CSS/covidapp.css">
+  <link rel="stylesheet" href="CSS/particles.css">
   <link rel="stylesheet" href="CSS/card.css">
+  <link rel="stylesheet" href="CSS/navbar.css">
   
   <!-- JavaScript Libraries -->
   <script src="JS/jquery.js" defer></script>
@@ -37,67 +36,78 @@
   <script src="JS/particles.js" defer></script>
   <script src="JS/particle-settings.js" defer></script>
   <script src="JS/timeline.js" defer></script>
+  
 </head>
 
 
 <body>
-  <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark" aria-label="Eighth navbar example">
-    <!--  Bootstrap navigation bar  -->
-    <div  class="container">
-      
-
+  <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark" aria-label="Fancy navbar example">
+    <div class="container">
+      <!-- Logo/Icon -->
+      <a class="navbar-brand" href="index.html">
+        <img style="max-height: 3ex; border-radius: 5px;" src="media/fav.jpg" alt="Logo">
+      </a>
+  
+      <!-- Toggler button for mobile view -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07"
         aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-        
       </button>
-
+  
+      <!-- Collapsible Navbar Links -->
       <div class="collapse navbar-collapse" id="navbarsExample07">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <!-- Home Link -->
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html"><img style="max-height: 3ex; border-radius: 2px;" src="media/fav.jpg" ></a>
+            <a class="nav-link" href="https://brar-karamjit.github.io/portfolio/">
+              <i class="fas fa-home"></i> Home
+            </a>
           </li>
-          
-          <li class="nav-item"></li>
-            <a class="nav-link" href="https://brar-karamjit.github.io/portfolio/">Home</a>
-          </li>
-
+  
+          <!-- Resume Link -->
           <li class="nav-item">
-            <a class="nav-link" href="media/Karamjit_Brar.pdf">Resume</a>
+            <a class="nav-link" href="media/Karamjit_Brar.pdf">
+              <i class="fas fa-file-alt"></i> Resume
+            </a>
           </li>
-
+  
+          <!-- Projects Link -->
           <li class="nav-item">
-            <a class="nav-link" href="https://brar-karamjit.github.io/portfolio/project">Project</a>
+            <a class="nav-link" href="https://brar-karamjit.github.io/portfolio/project">
+              <i class="fas fa-code"></i> Projects
+            </a>
           </li>
-
-        
-
+  
+          <!-- Dropdown for Certifications -->
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdown07" data-bs-toggle="dropdown"
-              aria-expanded="false">Certs </a>
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown07" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-certificate"></i> Certifications
+            </a>
             <ul class="dropdown-menu" aria-labelledby="dropdown07">
-              
-              <li><a class="dropdown-item" href="media/awsdev.pdf">AWS Certified Developer</a></li>
-              <li><a class="dropdown-item" href="media/aws1.pdf">AWS Certified Practitioner</a></li>
-              <li ><a class="dropdown-item" href="media/yuhacks.pdf" target="_blank">YUhacks</a></li>
+              <li><a class="dropdown-item" href="media/awsdev.pdf"><i class="fab fa-aws"></i> AWS Certified Developer</a></li>
+              <li><a class="dropdown-item" href="media/aws1.pdf"><i class="fab fa-aws"></i> AWS Certified Practitioner</a></li>
+              <li><a class="dropdown-item" href="media/yuhacks.pdf" target="_blank"><i class="fas fa-trophy"></i> YUhacks</a></li>
             </ul>
           </li>
-
-          
+  
+          <!-- Github Link -->
           <li class="nav-item">
-            <a class="nav-link" href="https://github.com/brar-karamjit">Github</a>
+            <a class="nav-link" href="https://github.com/brar-karamjit">
+              <i class="fab fa-github"></i> GitHub
+            </a>
           </li>
-
+  
+          <!-- LinkedIn Link -->
           <li class="nav-item">
-            <a class="nav-link" href="https://www.linkedin.com/in/kramjitbr/">LinkedIn</a>
+            <a class="nav-link" href="https://www.linkedin.com/in/kramjitbr/">
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
           </li>
-
-
         </ul>
-        
       </div>
     </div>
   </nav>
+  
 
   <div id="particles-js" ></div>
 
