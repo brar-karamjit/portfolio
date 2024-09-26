@@ -7,7 +7,7 @@
   }
   
   .bird {
-    width: 100px; /* Adjust bird size */
+    width: 200px; /* Adjust bird size */
     position: absolute;
     animation: fly linear infinite;
     opacity: 0.9;

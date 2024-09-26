@@ -9,7 +9,8 @@
       console.log("bird");
       // Randomize starting position and animation duration
       const randomStartTop = Math.random() * 80 + 10; // Random top position (10% to 90% of the screen)
-      const randomDuration = Math.random() * 15 + 14; // Random animation duration (5 to 15 seconds)
+      const randomDuration = Math.random() * 3 + 7; // Random duration between 7 and 10 seconds
+
       bird.style.top = `${randomStartTop}vh`;
       bird.style.animationDuration = `${randomDuration}s`;
 
@@ -22,9 +23,9 @@
       }, 7000);
     }
 
-    // Randomize the time interval for bird appearances (between 5 and 15 seconds)
+
     function randomBirdFly() {
-      const randomInterval = Math.random() * 20000 + 15000; // 5 to 15 seconds
+    const randomInterval = Math.random() * 60000 + 60000; // 1 to 2 minutes
 
       setTimeout(() => {
         createBird();
