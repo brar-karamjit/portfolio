@@ -31,10 +31,19 @@
 }
   
 .image-container img {
-    margin-top: 20px;
+    margin-top: 10%;
     max-width: 70%; /* Sets a small image size */
     height: auto; /* Keeps aspect ratio */
     margin-left: 10%;
+}
+
+@media (max-width: 768px) {
+    .image-container img {
+        max-width: 50%; /* Make image smaller on mobile */
+        margin-top: 20%;
+        margin-left: 25%;  /* Adjust margin as needed */
+        margin-bottom: 20%;
+    }
 }
 
 
@@ -71,12 +80,6 @@
 @media(max-width: 800px) {
     .typewriter h1 {
         font-size: 30px;
-    }
-    #invisible {
-        display: none;
-        font-size: 25px;
-    }
-    .blink-typing {
-        margin-bottom: 5ex;
+        margin-left: 20%;
     }
 }
