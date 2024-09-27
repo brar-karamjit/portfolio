@@ -33,3 +33,7 @@
       max-width: 100px; /* Control the size of the logo on smaller screens */
   }
 }
+
+.nav-link{
+  color: white;
+}
