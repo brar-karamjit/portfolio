@@ -1,24 +1,67 @@
 .certifications-section {
-    padding: 60px 0;
-    text-align: center;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.certifications-section h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 50px !important;  /* Adjusted margin for more space below */
+  letter-spacing: 1px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Underline Effect */
+.certifications-section h2::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background: rgba(255, 165, 0, 0.6); /* Subtle orange accent */
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2px;
+}
+
+.certifications-section .row {
+  display: flex;
+  justify-content: center; /* Center the items */
+  gap: 20px; /* Adjust space between items */
+}
+
+.certifications-section .col {
+  max-width: 300px; /* Limit max width of each certification item */
+  flex: 1 1 250px; /* Allow the columns to shrink but maintain a minimum width */
+}
+
+.certification-item img {
+  max-width: 100%;
+  height: auto;
+  max-height: 270px;
+  transition: transform 0.3s ease;
+}
+
+.certification-item:hover img {
+  transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .certifications-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
   }
 
-  .certifications-section h2 {
-    font-size: 2rem;
-    font-weight: 400;
-    color: #fff;
-    text-transform: uppercase;
-    margin-bottom: 40px;
-    letter-spacing: 1px;
+  .certifications-section .row {
+    gap: 15px; /* Adjust space for smaller screens */
   }
 
   .certification-item img {
-    max-width: 100%;
-    height: auto;
-    max-height: 300px;
-    transition: transform 0.3s ease;
+    max-height: 220px;
   }
-
-  .certification-item:hover img {
-    transform: scale(1.1);
-  }
+}

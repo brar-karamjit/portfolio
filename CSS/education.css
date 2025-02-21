@@ -7,10 +7,26 @@
 .education-section h2 {
   font-size: 2rem;
   font-weight: 400;
-  color: #fff;
   text-transform: uppercase;
-  margin-bottom: 40px;
+  margin-bottom: 70px !important;
   letter-spacing: 1px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Underline Effect */
+.education-section h2::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background: rgba(255, 165, 0, 0.6); /* Subtle orange accent */
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2px;
 }
 
 .education-section .row {

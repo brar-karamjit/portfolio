@@ -1,0 +1,119 @@
+.work-experience-section {
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.work-experience-header {
+  font-size: 2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 70px !important;
+  letter-spacing: 1px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-experience-header::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background: rgba(255, 165, 0, 0.6); /* Subtle orange accent */
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2px;
+}
+
+.work-experience-card {
+  background: linear-gradient(145deg, #2b2f3a, #232741);
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  max-width: 900px;
+  width: 100%;
+}
+
+.work-item {
+  border-left: 4px solid rgba(255, 165, 0, 0.2); /* Subtle orange */
+  padding-left: 20px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.work-item::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: rgba(255, 165, 0, 0.2); /* Subtle orange */
+  position: absolute;
+  left: -7px;
+  top: 5px;
+  border-radius: 50%;
+}
+
+.work-item h5 {
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+  color: #fff;
+  transition: color 0.3s ease-in-out;
+}
+
+.work-item h5:hover {
+  color: rgba(255, 165, 0, 0.8); /* Orange on hover for job titles */
+}
+
+.work-item p {
+  margin: 0;
+  color: #b1b1b1;
+  font-size: 0.9rem;
+}
+
+.work-item ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.work-item li {
+  color: #d1d1d1;
+  margin-bottom: 8px;
+  font-size: 1rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.work-item li:hover {
+  color: rgba(255, 165, 0, 0.6); /* Slightly brighter orange hover effect */
+}
+
+/* Hover Effect */
+.work-experience-card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .work-experience-header {
+    font-size: 1.5rem;
+  }
+
+  .work-experience-card {
+    padding: 20px;
+  }
+
+  .work-item h5 {
+    font-size: 1.1rem;
+  }
+
+  .work-item p,
+  .work-item li {
+    font-size: 0.85rem;
+  }
+}
