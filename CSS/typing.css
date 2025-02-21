@@ -57,7 +57,7 @@
     max-width: 18ch; /* Adjusted to fit the length of "Hi I am karam" */
     display: inline-block;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange; /* The typewriter cursor */
+    border-right: .15em solid rgba(255, 165, 0, 0.7);; /* The typewriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
