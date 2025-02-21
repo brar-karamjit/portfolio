@@ -4,12 +4,11 @@
 
 Welcome to my personal portfolio! This repo showcases my Work exprience, skills, projects and certifications
 
-### Frontend Technologies
-- **CSS**: For styling and layout.
-- **Bootstrap**: For responsive design and pre-built components.
-- **JavaScript**: For interactivity and dynamic content.
-- **HTML**: For structuring the web pages.
-
+### Skills Summary
+**Languages**: Python, Java, Groovy, SQL, Bash, PowerShell  
+**Tools & Technologies**: Jenkins, Docker, Terraform, Kubernetes, Ansible, Jira, SaltStack, Chocolatey  
+**Cloud Platforms**: AWS (EC2, S3, Lambda, CloudFormation), GCP, vSphere  
+**Operating Systems**: Linux (RHEL9), Windows  
 
 
 ### Contact
