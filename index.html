@@ -22,9 +22,10 @@
   
   <!-- Custom CSS -->
   <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/education.css">
   <link rel="stylesheet" href="CSS/typing.css">
   <link rel="stylesheet" href="CSS/particles.css">
-  <link rel="stylesheet" href="CSS/card.css">
+  <link rel="stylesheet" href="CSS/certs.css">
   <link rel="stylesheet" href="CSS/navbar.css">
   
   <!-- JavaScript Libraries -->
@@ -34,6 +35,7 @@
   
   <!-- Custom JavaScript -->
   <script src="JS/script.js" defer></script>
+  <script src="JS/navbar.js" defer></script>
   <script src="JS/particles.js" defer></script>
   <script src="JS/particle-settings.js" defer></script>
   
@@ -111,7 +113,6 @@
   
 
   <div id="particles-js" ></div>
- </div>
 
   <div class="blink-typing" style="font-family: 'Droid Sans', serif;">
       <!--  Typewriter  -->
@@ -125,94 +126,102 @@
         </div>
   </div>
 
-
+  <!-- Inro Section -->
   <section class="container my-5">
-    <!-- Row with responsive columns and centered text -->
     <div class="Section Heading" style="margin-top: 50px;">
       
       <div class="d-flex justify-content-start social-icons" style="margin: 10px;">
         <a href="https://www.linkedin.com/in/kramjitbr/" target="_blank">
             <img src="media/linkedin.png" alt="LinkedIn" style=" height: 40px; margin-right: 3px;">
         </a>
-        <a href="https://brar-karamjit.github.io/portfolio/" target="_blank">
+        <a href="https://github.com/brar-karamjit" target="_blank">
             <img src="media/github.png" alt="Baymax" style="height: 40px; margin-right: 3px;">
         </a>
-        <a href="https://leetcode.com/u/brkaram/" target="_blank">
-            <img src="media/leetcode.png" alt="Icon 3" style="height: 40px; margin-right: 3px;">
-        </a>
+        
       </div>
 
       <p style="margin-top: 30px;">
-        Cloud Engineer with a strong foundation in Programming Fundamentals.
-        Proficient in Java and Python with hands-on experience in OOP. 
-        Skilled in automating tools 
-        like Jenkins, Docker, AWS, Python, and Terraform. 
-        Proven expertise in system engineering and cloud operations
+        Cloud-focused engineer with a strong foundation in software development and infrastructure automation. Experienced in designing and implementing scalable solutions using AWS, Terraform, and Docker to improve system efficiency and reduce operational costs. Proficient in building CI/CD pipelines, managing cloud resources, and automating IT processes across cloud platforms such as AWS and GCP. Passionate about optimizing workflows and leveraging cutting-edge technologies to drive innovation. Adept at troubleshooting, system configuration, and managing infrastructure as code.
       </p>
       <br>
     </div>
-    <div class="row row-cols-1 row-cols-md-2 mb-3 text-center">
-      
-      <!-- Education Column -->
-      <div class="col">
-        <div class="card mb-4 rounded-2 border-secondary" style="height: 48ex; background-color: #232741;">
-          <div class="card-header py-3 border-secondary" style="background-color: #343a40; color: #ffffff;">
-            <h4 class="my-0 text-center">Education</h4>
-          </div>
-          <div class="card-body-b">
-            <img src="media/edu.png" style="max-height: 17ex; margin-bottom: 5ex;">
-            <div class="container-sub">
-              
-              <!-- Education Item 1 -->
-              <div class="container" style="background-image: linear-gradient(to right, #101324, #232741); margin-bottom: 13px; border-width: 1px; border-color: rgb(110, 109, 109); border-style: solid; border-radius: 10px; max-width: 28ex; padding: 2px; background-color: #232741;">
-                <p style="margin: 0px;">B.Sc. Computer Science</p>
-                <p>York University 2020 - 2023</p>
-              </div>
-  
-              <!-- Education Item 2 -->
-              <div class="container" style="background-image: linear-gradient(to right, #101324, #232741); margin-bottom: 13px; border-width: 1px; border-color: rgb(110, 109, 109); border-style: solid; border-radius: 10px; max-width: 28ex; padding: 2px; background-color: #232741;">
-                <p style="margin: 0px;">Mechanical Engineering</p>
-                <p>Sheridan College 2015-17</p>
-              </div>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-  
-      <!-- Certs Column -->
-      <div class="col">
-        <div class="card mb-4 rounded-3 border-secondary" style="height: 48ex; background-color: #232741;">
-          <div class="card-header py-3 border-secondary" style="background-color: #343a40; color: #ffffff;">
-            <h4 class="my-0 text-center">Certifications</h4>
-          </div>
-          <div class="card-body-b">
-            <img src="media/exp.png" style="max-height: 20ex; margin-bottom: 2ex;">
-            <div class="container-sub">
-              
-              <!-- Cert Item 1 -->
-              <div class="container" style="background-image: linear-gradient(to right, #101324, #232741); margin-bottom: 13px; border-width: 1px; border-color: rgb(110, 109, 109); border-style: solid; border-radius: 10px; max-width: 28ex; padding: 2px; background-color: #232741;">
-                <p style="margin: 0px;">AWS Certified Solutions Architect</p>
-                <p >Associate, 2025</p>
-              </div>
-  
-              <!-- cert Item 2 -->
-              <div class="container" style="background-image: linear-gradient(to right, #101324, #232741); margin-bottom: 13px; border-width: 1px; border-color: rgb(110, 109, 109); border-style: solid; border-radius: 10px; max-width: 28ex; padding: 2px; background-color: #232741;">
-                <p style="margin: 0px;">AWS Certified Developer</p>
-                <p>Associate, 2024</p>
-              </div>
-              
-            </div>
-            <br>
-          </div>
-        </div>
-      </div>
-  
-    </div>
   </section>
 
+
+<!-- Section: Education -->
+<section class="container my-5 education-section">
+  <h2 class="text-center text-light mb-4">Education</h2>
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <!-- Education Item 1 -->
+    <div class="col">
+      <div class="education-card">
+        <div class="education-card-header">
+          <h4>B.Sc. Computer Science</h4>
+          <p>York University (2020 - 2023)</p>
+        </div>
+        <div class="education-card-body">
+          <p class="description">
+            Studied various computer science principles including programming, algorithms, databases, and more. Gained practical skills in software development and cloud computing.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Education Item 2 -->
+    <div class="col">
+      <div class="education-card">
+        <div class="education-card-header">
+          <h4>Mechanical Engineering</h4>
+          <p>Sheridan College (2015 - 2017)</p>
+        </div>
+        <div class="education-card-body">
+          <p class="description">
+            Focused on mechanical engineering principles, including thermodynamics, fluid mechanics, and mechanical design. Gained hands-on experience with machinery and engineering processes.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Certification Section -->
+<section class="container my-5 certifications-section">
+  <h2 class="text-center text-light mb-4">Certifications</h2>
+  <div class="row row-cols-1 row-cols-md-3">
+    <!-- Certification 1 -->
+    <div class="col mb-4">
+      <div class="certification-item">
+        <img src="media/credly/aws-certified-solutions-architect.png" alt="AWS Certified Solutions Architect" class="img-fluid mb-3">
+        
+      </div>
+    </div>
+    <!-- Certification 2 -->
+    <div class="col mb-4">
+      <div class="certification-item">
+        <img src="media/credly/aws-developer.png" alt="AWS Certified Developer" class="img-fluid mb-3">
+        
+      </div>
+    </div>
+    <!-- Certification 3 -->
+    <div class="col mb-4">
+      <div class="certification-item">
+        <img src="media/credly/aws-certified-cloud-practitioner.png" alt="AWS Certified Cloud Practitioner" class="img-fluid mb-3">
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+  <!-- Work Experience Section -->
   <section class="container my-5">
-    <!-- Work Experience Column -->
+   
     <div class="col">
       <div class="card mb-4 rounded-3 border-secondary" style="background-color: #232741;">
         <div class="card-header py-3 border-secondary" style="background-color: #343a40; color: #ffffff;">

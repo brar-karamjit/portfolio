@@ -1,0 +1,80 @@
+/* Education Section */
+.education-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .education-section h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+  }
+  
+  .education-section .row {
+    display: flex;
+    gap: 30px; /* Adds spacing between the cards */
+  }
+  
+  .education-section .col {
+    flex: 1; /* Ensures that columns are equal width */
+  }
+  
+  .education-section .education-card {
+    background: linear-gradient(145deg, #3d4b6980, #2f3b5475);
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures even spacing in the card */
+    min-height: 300px; /* Minimum height to keep them uniform */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .education-section .education-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+  }
+  
+  .education-section .education-card-header h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .education-section .education-card-header p {
+    font-size: 1rem;
+    color: #b1b1b1;
+  }
+  
+  .education-section .education-card-body .description {
+    font-size: 1rem;
+    color: #d1d1d1;
+    line-height: 1.5;
+    margin-top: 15px;
+    flex-grow: 1; /* Ensures the description expands to fill available space */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .education-section .education-card {
+      padding: 20px;
+    }
+
+    .education-section h2 {
+      font-size: 2rem;
+    }
+  
+    .education-section .education-card-header h4 {
+      font-size: 1.3rem;
+    }
+  
+    .education-section .education-card-header p {
+      font-size: 0.9rem;
+    }
+  }
+  

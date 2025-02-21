@@ -1,0 +1,24 @@
+.certifications-section {
+    padding: 60px 0;
+    text-align: center;
+  }
+
+  .certifications-section h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+  }
+
+  .certification-item img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    transition: transform 0.3s ease;
+  }
+
+  .certification-item:hover img {
+    transform: scale(1.1);
+  }

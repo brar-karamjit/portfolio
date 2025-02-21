@@ -34,7 +34,7 @@
   }
 }
 
-.nav-link{
+.nav-link {
   color: white;
 }
 
@@ -47,3 +47,23 @@
 .navbar-toggler {
   border-color: white;
 }
+
+/* Navbar background and fixed positioning on scroll */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+  background-color: rgba(0, 0, 0, 0.8); /* Light dark background when scrolled */
+}
+
+/* Ensure content does not overlap navbar */
+body {
+  padding-top: 70px; /* Adjust according to navbar height */
+}
+
