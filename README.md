@@ -16,3 +16,4 @@ Welcome to my personal portfolio! This repo showcases my Work exprience, skills,
 Feel free to reach out to me for any inquiries or collaborations:
 
 - **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/kramjitbr/)
+- **Portfolio**: [Portfolio URL](https://brar-karamjit.github.io/portfolio/)
