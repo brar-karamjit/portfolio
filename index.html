@@ -146,7 +146,15 @@
 
       <p style="margin-top: 30px;">
         Cloud-focused engineer with a strong foundation in software development and infrastructure automation. Experienced in designing and implementing scalable solutions using AWS, Terraform, and Docker to improve system efficiency and reduce operational costs. Proficient in building CI/CD pipelines, managing cloud resources, and automating IT processes across cloud platforms such as AWS and GCP. Passionate about optimizing workflows and leveraging cutting-edge technologies to drive innovation. Adept at troubleshooting, system configuration, and managing infrastructure as code.
-      </p>
+    </p>
+    
+    <p><strong>Skills:</strong></p>
+    <ul>
+        <li><strong>Languages:</strong> Python, Java, Groovy, SQL, Bash, PowerShell</li>
+        <li><strong>Tools & Technologies:</strong> Jenkins, Docker, Terraform, Kubernetes, Ansible, Jira, SaltStack, Chocolatey</li>
+        <li><strong>Cloud Platforms:</strong> AWS (EC2, S3, Lambda, CloudFormation), GCP, vSphere</li>
+        <li><strong>Operating Systems:</strong> Linux (RHEL9), Windows</li>
+    </ul>
       <br>
     </div>
   </section>
@@ -217,62 +225,53 @@
   </div>
 </section>
 
-<section class="container my-5">
-  <div class="row row-cols-1 row-cols-md-1 g-4">
-    <!-- Work Experience 1 -->
-    <div class="col">
-      <div class="card rounded-3 border-secondary" style="background-color: #232741;">
-        <div class="card-header py-3 border-secondary" style="background-color: #343a40; color: #ffffff;">
-          <h5 class="my-0 text-center">System Engineer</h5>
-        </div>
-        <div class="card-body">
-          <p class="text-muted">Questrade - Dec. 2023 – Present</p>
-          <p class="text-muted">Toronto, ON</p>
-          <ul class="list-unstyled">
-            <li>Engineered Jenkins pipelines to deploy VMs on vSphere and GCP, utilizing Terraform for infrastructure provisioning and management and Packer for image creation.</li>
-            <li>Architected an AWS workspaces creation process, leveraging Jira-triggered workflows with API Gateway and AWS Lambda, standardizing deployment and adding necessary tags for cost tracking.</li>
-            <li>Bolstered Saltstack infrastructure reliability by developing automated installation and repair for unhealthy minions using Jenkins.</li>
-            <li>Deployed Cloud Custodian policies using AWS Lambda to automate the remediation of non-compliant or unused cloud resources, leveraging SQS and SES to notify resource owners.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
+<!-- Work Experience Section -->
+<section class="container my-5 work-experience-section">
+  <div class="work-experience-header">
+    <h2>Work Experience</h2>
+  </div>
 
-    <!-- Work Experience 2 -->
-    <div class="col">
-      <div class="card rounded-3 border-secondary" style="background-color: #232741;">
-        <div class="card-header py-3 border-secondary" style="background-color: #343a40; color: #ffffff;">
-          <h5 class="my-0 text-center">Infrastructure & Cloud Operations Intern</h5>
-        </div>
-        <div class="card-body">
-          <p class="text-muted">Questrade - May 2023 – Dec. 2023</p>
-          <p class="text-muted">Toronto, ON</p>
-          <ul class="list-unstyled">
-            <li>Developed custom Chocolatey packages for a wide range of software applications, streamlining VM provisioning processes and enabling rapid, standardized software installations.</li>
-            <li>Engineered a Bash and Python based solution to automate the transfer of VPN (Prisma) endpoint IPs related information to Device42 for streamlined whitelist management.</li>
-            <li>Enhanced security by replacing hardcoded passwords with environment variables across Jenkins, Terraform, and Packer codebases in the internal GitLab repository.</li>
-            <li>Developed a Python based automation solution for employee management, fetching data from Ceridian Dayforce APIs and generating Jira tickets based on employee metadata.</li>
-          </ul>
-        </div>
-      </div>
+  <!-- Work Experience Card 1 -->
+  <div class="work-experience-card">
+    <div class="work-item">
+      <h5>System Engineer</h5>
+      <p>Questrade - Dec. 2023 – Present</p>
+      <p>Toronto, ON</p>
+      <ul>
+        <li>Built Jenkins pipelines for VM deployment on vSphere and GCP.</li>
+        <li>Automated AWS workspace creation via API Gateway and Lambda.</li>
+        <li>Improved Saltstack reliability with automated fixes for unhealthy minions.</li>
+        <li>Implemented Cloud Custodian for cloud resource cleanup.</li>
+      </ul>
     </div>
+  </div>
 
-    <!-- Work Experience 3 -->
-    <div class="col">
-      <div class="card rounded-3 border-secondary" style="background-color: #232741;">
-        <div class="card-header py-3 border-secondary" style="background-color: #343a40; color: #ffffff;">
-          <h5 class="my-0 text-center">DevOps Engineer Intern</h5>
-        </div>
-        <div class="card-body">
-          <p class="text-muted">CGI Inc. - Sep. 2022 – Apr. 2023</p>
-          <p class="text-muted">Markham, ON</p>
-          <ul class="list-unstyled">
-            <li>Spearheaded the migration of Jira from cloud to Data Center instance with zero downtime and no loss of data.</li>
-            <li>Automated issue synchronization between Jira projects using Groovy and ScriptRunner.</li>
-            <li>Contributed to client cost tracking initiatives by collecting and validating database and VM usage metrics through cross-team collaboration.</li>
-          </ul>
-        </div>
-      </div>
+  <!-- Work Experience Card 2 -->
+  <div class="work-experience-card">
+    <div class="work-item">
+      <h5>Infrastructure Engineer Intern</h5>
+      <p>Questrade - May 2023 – Dec. 2023</p>
+      <p>Toronto, ON</p>
+      <ul>
+        <li>Created Chocolatey packages to standardize software installations.</li>
+        <li>Automated VPN data transfer to Device42 with Bash/Python.</li>
+        <li>Replaced hardcoded passwords with environment variables for security.</li>
+        <li>Developed automation for employee management and Jira ticketing.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Work Experience Card 3 -->
+  <div class="work-experience-card">
+    <div class="work-item">
+      <h5>DevOps Engineer Intern</h5>
+      <p>CGI Inc. - Sep. 2022 – Apr. 2023</p>
+      <p>Markham, ON</p>
+      <ul>
+        <li>Led Jira migration with zero downtime.</li>
+        <li>Automated Jira issue synchronization using Groovy.</li>
+        <li>Collected VM and database metrics for client cost tracking.</li>
+      </ul>
     </div>
   </div>
 </section>

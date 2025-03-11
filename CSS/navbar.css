@@ -60,7 +60,9 @@
   left: 0;
   width: 100%;
   z-index: 1000;
+  border-radius: 10px;
   transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow below navbar */
 }
 
 .navbar.scrolled {
