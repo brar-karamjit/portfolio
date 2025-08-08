@@ -1,18 +1,18 @@
-# Portfolio
-## Portfolio - Karamjit Brar
+🌐 Karamjit Brar – Portfolio Website
+This repository contains my personal portfolio website, hosted on GitHub Pages, highlighting my work as a Cloud & DevOps Engineer.
 
+📖 About
+I specialize in cloud infrastructure, automation, and CI/CD using tools like AWS, Kubernetes, Terraform, Jenkins, and Ansible.
+My portfolio showcases my certifications, technical projects, and professional experience in fintech and enterprise IT.
 
-Welcome to my personal portfolio! This repo showcases my Work exprience, skills, projects and certifications
+🗂 Sections
+🏆 Certifications – AWS Certified Solutions Architect, AWS Certified Developer, CKA
 
-### Skills Summary
-**Languages**: Python, Java, Groovy, SQL, Bash, PowerShell  
-**Tools & Technologies**: Jenkins, Docker, Terraform, Kubernetes, Ansible, Jira, SaltStack, Chocolatey  
-**Cloud Platforms**: AWS (EC2, S3, Lambda, CloudFormation), GCP, vSphere  
-**Operating Systems**: Linux (RHEL9), Windows  
+💡 Projects – Real-world DevOps, Kubernetes, and cloud automation work
 
+💼 Experience – Roles in cloud engineering and systems automation
 
-### Contact
-Feel free to reach out to me for any inquiries or collaborations:
+📫 Contact – Links to LinkedIn, resume, and email
 
-- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/kramjitbr/)
-- **Portfolio**: [Portfolio URL](https://brar-karamjit.github.io/portfolio/)
+🚀 Live Portfolio
+🔗 View Website
